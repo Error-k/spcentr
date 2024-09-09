@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-mobile">
+                <img class="header-mobile__logo" src="./images/header-mobile-logo.webp" alt="">
+                <nav class="header-mobile__menu">
+                    <ul class="header-mobile__menu-list">
+                        <li class="header-mobile__menu-item">
+                            <button class="header-mobile__menu-item-btn">
+                                <img src="./images/header-mobile-calculate-logo.webp" alt="">
+                            </button>
+                        </li>
+                        <li class="header-mobile__menu-item">
+                            <button id="header-mobile__request-btn" class="header-mobile__menu-item-btn">
+                                <img src="./images/header-mobile-request-img.webp" alt="">
+                            </button>
+                        </li>
+                        <li class="header-mobile__menu-item">
+                            <a class="header-mobile__menu-item-link" href="">
+                                <img src="./images/header-mobile-phone-logo.webp" alt="">
+                            </a>
+                        </li>
+                        <li class="header-mobile__menu-item">
+                            <div id="header-mobile__burger" class="header-mobile__menu-item-burger">
+                                <span class="header-mobile__menu-item-burger-lane"></span>
+                            </div>
+                            <div id="header-mobile-popup" class="header-mobile-popup">
+                                <nav class="header-mobile-popup-menu">
+                                    <ul class="header-mobile-popup-menu__list">
+                                        <li class="header-mobile-popup-menu__item">
+                                            <a id="header-mobile-popup-menu__item-link-catalog" class="header-mobile-popup-menu__item-link" href="##">Каталог</a>
+                                            <img class="header-mobile-popup-menu__item-img" src="./images/header-mobile-popup-menu-arrow.webp" alt="">
+                                            <div id="catalog-popup_mobile" class="catalog-popup catalog-popup_mobile">
+                                                <nav class="catalog-popup__menu">
+                                                    <ul class="catalog-popup__menu-list catalog-popup__menu-list_mobile">
+                                                        <li class="catalog-popup__menu-list-item catalog-popup__menu-list-item_mobile">
+                                                            <a class="catalog-popup__menu-list-item-link" href="">
+                                                                <img src="./images/catalog-popup-menu-list-item1.webp" alt="">
+                                                                <span class="catalog-popup__menu-list-item-link-txt">
+                                                                    Стеновые сэндвич-панели
+                                                                </span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="catalog-popup__menu-list-item catalog-popup__menu-list-item_mobile">
+                                                            <a class="catalog-popup__menu-list-item-link" href="">
+                                                                <img src="./images/catalog-popup-menu-list-item2.webp" alt="">
+                                                                <span class="catalog-popup__menu-list-item-link-txt">Линеарные панели</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="catalog-popup__menu-list-item catalog-popup__menu-list-item_mobile">
+                                                            <a class="catalog-popup__menu-list-item-link" href="">
+                                                                <img src="./images/catalog-popup-menu-list-item3.webp" alt="">
+                                                                <span class="catalog-popup__menu-list-item-link-txt">Фасадные панели(2-слойные)</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="catalog-popup__menu-list-item catalog-popup__menu-list-item_mobile">
+                                                            <a class="catalog-popup__menu-list-item-link" href="">
+                                                                <img src="./images/catalog-popup-menu-list-item4.webp" alt="">
+                                                                <span class="catalog-popup__menu-list-item-link-txt"> Кровельные сэндвич-панели</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="catalog-popup__menu-list-item catalog-popup__menu-list-item_mobile">
+                                                            <a class="catalog-popup__menu-list-item-link" href="">
+                                                                <img src="./images/catalog-popup-menu-list-item5.webp" alt="">
+                                                                <span class="catalog-popup__menu-list-item-link-txt">Листы профнастила</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="catalog-popup__menu-list-item catalog-popup__menu-list-item_mobile">
+                                                            <a class="catalog-popup__menu-list-item-link" href="">
+                                                                <img src="./images/catalog-popup-menu-list-item6.webp" alt="">
+                                                                <span class="catalog-popup__menu-list-item-link-txt">Металло-кассеты</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="catalog-popup__menu-list-item catalog-popup__menu-list-item_mobile">
+                                                            <a class="catalog-popup__menu-list-item-link" href="">
+                                                                <img src="./images/catalog-popup-menu-list-item1.webp" alt="">
+                                                                <span class="catalog-popup__menu-list-item-link-txt">
+                                                                    Стеновые сэндвич-панели
+                                                                </span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="catalog-popup__menu-list-item catalog-popup__menu-list-item_mobile">
+                                                            <a class="catalog-popup__menu-list-item-link" href="">
+                                                                <img src="./images/catalog-popup-menu-list-item2.webp" alt="">
+                                                                <span class="catalog-popup__menu-list-item-link-txt">Линеарные панели</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="catalog-popup__menu-list-item catalog-popup__menu-list-item_mobile">
+                                                            <a class="catalog-popup__menu-list-item-link" href="">
+                                                                <img src="./images/catalog-popup-menu-list-item3.webp" alt="">
+                                                                <span class="catalog-popup__menu-list-item-link-txt">Фасадные панели(2-слойные)</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="catalog-popup__menu-list-item catalog-popup__menu-list-item_mobile">
+                                                            <a class="catalog-popup__menu-list-item-link" href="">
+                                                                <img src="./images/catalog-popup-menu-list-item4.webp" alt="">
+                                                                <span class="catalog-popup__menu-list-item-link-txt"> Кровельные сэндвич-панели</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="catalog-popup__menu-list-item catalog-popup__menu-list-item_mobile">
+                                                            <a class="catalog-popup__menu-list-item-link" href="">
+                                                                <img src="./images/catalog-popup-menu-list-item5.webp" alt="">
+                                                                <span class="catalog-popup__menu-list-item-link-txt">Листы профнастила</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="catalog-popup__menu-list-item catalog-popup__menu-list-item_mobile">
+                                                            <a class="catalog-popup__menu-list-item-link" href="./catalog1.html">
+                                                                <span class="catalog-popup__menu-list-item-link-txt">Весь каталог</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </nav>
+                                            </div>
+                                        </li>
+                                        <li class="header-mobile-popup-menu__item">
+                                            <a class="header-mobile-popup-menu__item-link"  href="">О компании</a>
+                                        </li>
+                                        <li class="header-mobile-popup-menu__item">
+                                            <a class="header-mobile-popup-menu__item-link"  href="">Инфоцентр</a>
+                                        </li>
+                                        <li class="header-mobile-popup-menu__item">
+                                            <a id="header-mobile-popup-menu__item-link-services" class="header-mobile-popup-menu__item-link"  href="##">Услуги</a>
+                                            <img class="header-mobile-popup-menu__item-img" src="./images/header-mobile-popup-menu-arrow.webp" alt="">
+                                            <div id="header-mobile-popup_inserted" class="header-mobile-popup header-mobile-popup_inserted">
+                                                <img id="header-mobile-popup_inserted__img" class="header-mobile-popup_inserted__img" src="./images/go-back-arrow.webp" alt="">
+                                                <nav class="header-mobile-popup-menu header-mobile-popup-menu_inserted">
+                                                    <ul class="header-mobile-popup-menu__list">
+                                                        <li class="header-mobile-popup-menu__item">
+                                                            <a class="header-mobile-popup-menu__item-link" href="">
+                                                                Комплектация «под ключ»
+                                                            </a>
+                                                        </li>
+                                                        <li class="header-mobile-popup-menu__item">
+                                                            <a class="header-mobile-popup-menu__item-link"  href="">
+                                                                Составление проекта
+                                                            </a>
+                                                        </li>
+                                                        <li class="header-mobile-popup-menu__item">
+                                                            <a class="header-mobile-popup-menu__item-link"  href="">
+                                                                Монтаж сэндвич-панелей
+                                                            </a>
+                                                        </li>
+                                                        <li class="header-mobile-popup-menu__item">
+                                                            <a class="header-mobile-popup-menu__item-link"  href="##">
+                                                                Хранение и транспортировка
+                                                            </a>
+                                                        </li>
+                                                        <li class="header-mobile-popup-menu__item">
+                                                            <a class="header-mobile-popup-menu__item-link"  href="">
+                                                                Продольная резка металла
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </nav>
+                                                <div class="header-mobile-popup-content">
+                                                    <div class="header-mobile-popup-content__location">
+                                                        <img class="header-mobile-popup-content__location-logo" src="./images/header__location-img.webp" alt="">
+                                                        <span class="header-mobile-popup-content__location-txt">Выбор города</span>
+                                                    </div>
+                                                    <div class="header-mobile-popup-content__phones">
+                                                        <div class="header-mobile-popup-content__phones-phone">
+                                                            <img class="header-mobile-popup-content__phones-phone-img" src="./images/header-phone-logo.webp" alt="">
+                                                            <span class="header-mobile-popup-content__phones-phone-txt">
+                                                                <a class="header-mobile-popup-content__phones-phone-link" href="tel:+7 800 700-709-8">+7 800 700-709-8</a>
+                                                                <br>
+                                                                бесплатно для регионов РФ
+                                                            </span>
+                                                        </div>
+                                                        <div class="header-mobile-popup-content__phones-phone">
+                                                            <img class="header-mobile-popup-content__phones-phone-img" src="./images/header-phone-logo.webp" alt="">
+                                                            <span class="header-mobile-popup-content__phones-phone-txt">
+                                                                <a class="header-mobile-popup-content__phones-phone-link" href="tel:+7 495 150-49-09">+7 495 150-49-09</a>
+                                                                <br>
+                                                                пн-пт 9:00–18:00
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <form class="header-mobile-popup-content__search-field" role="search" method="get" >
+                                                        <button id="header-mobile-popup-content__search-field-btn" class="header-mobile-popup-content__search-field-btn"> 
+                                                            <img src="./images/header-mobile-search-btn-img.webp" alt="">
+                                                        </button>
+                                                        <input id="header-mobile-popup-content__search-field-input" class="header-mobile-popup-content__search-field-input" type="search" placeholder="найти" name="search-text" />
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="header-mobile-popup-menu__item">
+                                            <a class="header-mobile-popup-menu__item-link"  href="">Реализованные проекты</a>
+                                        </li>
+                                        <li class="header-mobile-popup-menu__item">
+                                            <a class="header-mobile-popup-menu__item-link"  href="">Калькулятор</a>
+                                        </li>
+                                        <li class="header-mobile-popup-menu__item">
+                                            <a class="header-mobile-popup-menu__item-link"  href="">Контакты</a>
+                                        </li>
+                                        <li class="header-mobile-popup-menu__item">
+                                            <a class="header-mobile-popup-menu__item-link"  href="">Весь каталог</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <div class="header-mobile-popup-content">
+                                    <div class="header-mobile-popup-content__location">
+                                        <img class="header-mobile-popup-content__location-logo" src="./images/header__location-img.webp" alt="">
+                                        <span  class="header-mobile-popup-content__location-txt">Выбор города</span>   
+                                    </div>
+                                    <div class="header-mobile-popup-content__phones">
+                                        <div class="header-mobile-popup-content__phones-phone">
+                                            <img class="header-mobile-popup-content__phones-phone-img" src="./images/header-phone-logo.webp" alt="">
+                                            <span class="header-mobile-popup-content__phones-phone-txt">
+                                                <a class="header-mobile-popup-content__phones-phone-link" href="tel:+7 800 700-709-8">+7 800 700-709-8</a>
+                                                <br>
+                                                бесплатно для регионов РФ
+                                            </span>
+                                        </div>
+                                        <div class="header-mobile-popup-content__phones-phone">
+                                            <img class="header-mobile-popup-content__phones-phone-img" src="./images/header-phone-logo.webp" alt="">
+                                            <span class="header-mobile-popup-content__phones-phone-txt">
+                                                <a class="header-mobile-popup-content__phones-phone-link" href="tel:+7 495 150-49-09">+7 495 150-49-09</a>
+                                                <br>
+                                                пн-пт 9:00–18:00
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <form class="header-mobile-popup-content__search-field" role="search" method="get" >
+                                        <button id="header-mobile-popup-content__search-field-btn" class="header-mobile-popup-content__search-field-btn"> 
+                                            <img src="./images/header-mobile-search-btn-img.webp" alt="">
+                                        </button>
+                                        <input id="header-mobile-popup-content__search-field-input" class="header-mobile-popup-content__search-field-input" type="search" placeholder="найти" name="search-text" />
+                                    </form>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__content-row">
+                <a class="header__content-row-logo" href="./index.html">
+                    <img src="./images/header-logo.webp" alt="" class="header__content-row-logo-img">
+                </a>
+                <div class="header__content-row-location">
+                    <img class="header__content-row-location-img" src="./images/header__location-img.webp" alt="">
+                    <span id="header__location-txt" class="header__content-row-location-txt">Санкт-Петербург</span>
+                </div>
+                <div class="header__content-row-btns">
+                    <button class="header__content-row-btns-btn" id="header-price-btn">
+                        <img id="header-price-btn-logo" src="./images/header-price-btn-logo.svg" alt="">
+                        <span>Рассчитать стоимость</span>
+                    </button>
+                    <button class="header__content-row-btns-btn" id="header-request-btn">
+                        <img id="header-request-btn-logo" src="./images/header-request-btn-logo.svg" alt="">
+                        <span>Отправить заявку</span>
+                    </button>
+                </div>
+                <div class="header__content-row-connection">
+                    <div class="header__content-row-connection-phone">
+                        <img id="" src="./images/header-phone-logo.webp" alt="">
+                        <span>
+                            <a href="tel:+7 800 700-709-8">+7 800 700-709-8</a>
+                            <br>
+                            бесплатно для регионов РФ
+                        </span>
+                    </div>
+                    <div class="header__content-row-connection-phone">
+                        <img src="./images/header-phone-logo.webp" alt="">
+                        <span>
+                            <a href="tel:+7 495 150-49-09">+7 495 150-49-09</a>
+                            <br>
+                            пн-пт 9:00–18:00
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__nav-bar">
+            <div class="container">
+                <div class="header__nav-bar-row">
+                    <a class="header__nav-bar-row-logo" href="##">
+                        <img class="header__nav-bar-row-logo-img" src="./images/header-logo-scrolled.webp" alt="">
+                    </a>
+                    <nav class="header__nav-bar-row-menu">
+                        <ul class="header__nav-bar-row-menu-items">
+                            <li id="header__nav-bar-row-menu-catalog-item" class="header__nav-bar-row-menu-items-item">
+                                <a class="catalog-link" href="./catalog1.html">
+                                    <div class="catalog-link-burger">
+                                        <span></span>
+                                    </div>
+                                    <span>Каталог</span>
+                                </a>
+                                <div class="catalog-popup">
+                                    <div class="container">
+                                        <nav class="catalog-popup__menu">
+                                            <ul class="catalog-popup__menu-list">
+                                                <li class="catalog-popup__menu-list-item">
+                                                    <a class="catalog-popup__menu-list-item-link" href="">
+                                                        <img src="./images/catalog-popup-menu-list-item1.webp" alt="">
+                                                        <span class="catalog-popup__menu-list-item-link-txt">
+                                                            Стеновые сэндвич-панели
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="catalog-popup__menu-list-item">
+                                                    <a class="catalog-popup__menu-list-item-link" href="">
+                                                        <img src="./images/catalog-popup-menu-list-item2.webp" alt="">
+                                                        <span class="catalog-popup__menu-list-item-link-txt">Линеарные панели</span>
+                                                    </a>
+                                                </li>
+                                                <li class="catalog-popup__menu-list-item">
+                                                    <a class="catalog-popup__menu-list-item-link" href="">
+                                                        <img src="./images/catalog-popup-menu-list-item3.webp" alt="">
+                                                        <span class="catalog-popup__menu-list-item-link-txt">Фасадные панели(2-слойные)</span>
+                                                    </a>
+                                                </li>
+                                                <li class="catalog-popup__menu-list-item">
+                                                    <a class="catalog-popup__menu-list-item-link" href="">
+                                                        <img src="./images/catalog-popup-menu-list-item4.webp" alt="">
+                                                        <span class="catalog-popup__menu-list-item-link-txt"> Кровельные сэндвич-панели</span>
+                                                    </a>
+                                                </li>
+                                                <li class="catalog-popup__menu-list-item">
+                                                    <a class="catalog-popup__menu-list-item-link" href="">
+                                                        <img src="./images/catalog-popup-menu-list-item5.webp" alt="">
+                                                        <span class="catalog-popup__menu-list-item-link-txt">Листы профнастила</span>
+                                                    </a>
+                                                </li>
+                                                <li class="catalog-popup__menu-list-item">
+                                                    <a class="catalog-popup__menu-list-item-link" href="">
+                                                        <img src="./images/catalog-popup-menu-list-item6.webp" alt="">
+                                                        <span class="catalog-popup__menu-list-item-link-txt">Металло-кассеты</span>
+                                                    </a>
+                                                </li>
+                                                <li class="catalog-popup__menu-list-item">
+                                                    <a class="catalog-popup__menu-list-item-link" href="">
+                                                        <img src="./images/catalog-popup-menu-list-item1.webp" alt="">
+                                                        <span class="catalog-popup__menu-list-item-link-txt">
+                                                            Стеновые сэндвич-панели
+                                                        </span>
+                                                    </a>
+                                                </li>
+                                                <li class="catalog-popup__menu-list-item">
+                                                    <a class="catalog-popup__menu-list-item-link" href="">
+                                                        <img src="./images/catalog-popup-menu-list-item2.webp" alt="">
+                                                        <span class="catalog-popup__menu-list-item-link-txt">Линеарные панели</span>
+                                                    </a>
+                                                </li>
+                                                <li class="catalog-popup__menu-list-item">
+                                                    <a class="catalog-popup__menu-list-item-link" href="">
+                                                        <img src="./images/catalog-popup-menu-list-item3.webp" alt="">
+                                                        <span class="catalog-popup__menu-list-item-link-txt">Фасадные панели(2-слойные)</span>
+                                                    </a>
+                                                </li>
+                                                <li class="catalog-popup__menu-list-item">
+                                                    <a class="catalog-popup__menu-list-item-link" href="">
+                                                        <img src="./images/catalog-popup-menu-list-item4.webp" alt="">
+                                                        <span class="catalog-popup__menu-list-item-link-txt"> Кровельные сэндвич-панели</span>
+                                                    </a>
+                                                </li>
+                                                <li class="catalog-popup__menu-list-item">
+                                                    <a class="catalog-popup__menu-list-item-link" href="">
+                                                        <img src="./images/catalog-popup-menu-list-item5.webp" alt="">
+                                                        <span class="catalog-popup__menu-list-item-link-txt">Листы профнастила</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="header__nav-bar-row-menu-items-item">
+                                <a href="">О компании</a>
+                            </li>
+                            <li class="header__nav-bar-row-menu-items-item">
+                                <a href="">Инфоцентр</a>
+                            </li>
+                            <li id="header__nav-bar-row-menu-items-services-item" class="header__nav-bar-row-menu-items-item">
+                                <a class="services-link" href="./services.html">
+                                    <span>Услуги</span>
+                                    <img id="header__services-img" src="./images/services-arrow.webp" alt="">
+                                </a>
+                                <nav class="header__services-popup-menu">
+                                    <ul class="header__services-popup-menu-items">
+                                        <li class="header__services-popup-menu-items-item">
+                                            <a href="">Комплектация «под ключ»</a>
+                                        </li>
+                                        <li class="header__services-popup-menu-items-item">
+                                            <a href="">Составление проекта</a>
+                                        </li>
+                                        <li class="header__services-popup-menu-items-item">
+                                            <a href="./installation.html">Монтаж сэндвич-панелей</a>
+                                        </li>
+                                        <li class="header__services-popup-menu-items-item">
+                                            <a href="">Хранение и транспортировка</a>
+                                        </li>
+                                        <li class="header__services-popup-menu-items-item">
+                                            <a href="">Продольная резка металла</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </li>
+                            <li id="done-projects-link" class="header__nav-bar-row-menu-items-item" >
+                                <a href="">Реализованные проекты</a>
+                            </li>
+                            <li class="header__nav-bar-row-menu-items-item header__nav-bar-row-menu-items-item_scrolled" >
+                                <a href="">Проекты</a>
+                            </li>
+                            <li id="calculator-link" class="header__nav-bar-row-menu-items-item" >
+                                <a href="">Калькулятор</a>
+                            </li>
+                            <li id="contact-link" class="header__nav-bar-row-menu-items-item" >
+                                <a href="">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <form class="header__nav-bar-row-search-field" role="search" method="get" >
+                        <button id="btn-search" class="btn-search"> 
+                            <img src="./images/search-icon.svg" alt="">
+                        </button>
+                        <input id="input-search" class="input-search" type="search" placeholder="найти" name="search-text" />
+                    </form>
+                    <div class="header__nav-bar-row-btns">
+                        <button class="header__nav-bar-row-btns-btn">
+                            <img src="./images/header-scrolled-calculate-btn.svg" alt="">
+                        </button>
+                        <button id="header__request-btn_scrolled" class="header__nav-bar-row-btns-btn">
+                            <img src="./images/header-scrolled-request-img.svg" alt="">
+                        </button>
+                        <a href="">
+                            <img src="./images/header-scrolled-phone-img.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="bread-crumbs">
+        <div class="container">
+            <div class="bread-crumbs__row">
+                <span class="bread-crumbs__page-name_blue">Главная</span>
+                <span class="bread-crumbs__pipe">|</span>
+                <span class="bread-crumbs__page-name_grey">Услуги</span>
+                <span class="bread-crumbs__pipe">|</span>
+                <span class="bread-crumbs__page-name_grey">Монтаж сэндвич-панелей</span>
+            </div>
+        </div>
+    </section>
+    <section class="description description__installation">
+        <div class="container">
+            <div class="description__content-row">
+                <div class="description__text-row">
+                    <h1 class="description__title">Монтаж сэндвич-панелей</h1>
+                    <p class="description__paragraph">
+                        В компании «СП-Центр» действует услуга профессионального монтажа
+                        сэндвич-панелей.
+                        Наши специалисты выполняют всю работу быстро 
+                        и профессионально в соответствии со всеми строительными нормами 
+                        и требованиями. География охвата: Москва и МО, Воронеж, Ярославль 
+                        и другие города РФ. Стоимость услуги оговаривается индивидуально.
+                        Кроме того, по необходимости мы готовы предоставить подробные 
+                        рекомендации по самостоятельному монтажу панелей.
+                    </p>
+                </div>
+                <div class="description__images-row">
+                    <div class="description__image-bg">
+                        <img class="description__image" src="./images/description__image-sertificate.webp" alt="">
+                        <span class="description__image-txt">Сертификаты</span>
+                    </div>
+                    <div class="description__image-bg">
+                        <img class="description__image" src="./images/description__image-guarantees.webp" alt="">
+                        <span class="description__image-txt">Гарантии</span>
+                    </div>
+                </div>
+            </div>
+            <div class="description__nav-row">
+                <div class="description__links-row">
+                    <a class="description__link" href="">
+                        <img class="description__link-img" src="./images/installation-description-link-arrow.webp" alt="">
+                        <span class="description__link-txt">Монтаж стеновых сэндвич-панелей</span>
+                    </a>
+                    <a class="description__link" href="">
+                        <img class="description__link-img" src="./images/installation-description-link-arrow.webp" alt="">
+                        <span class="description__link-txt">Монтаж кровельных сэндвич-панелей</span>
+                    </a>
+                </div>
+                <div class="description__btns-row">
+                    <button class="description__button_blue">
+                        <span class="description__button-txt">
+                            Заказать
+                        </span>
+                    </button>
+                    <a href="">
+                        <button class="description__button_white">
+                            <span class="description__button-txt">
+                                Смотреть готовые проекты
+                            </span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <img class="description__bg-image" src="./images/installation-description-image.webp" alt="">
+        </div>
+    </section>
+    <section class="technology">
+        <div class="container">
+           <div class="technology__content-row">
+                <h2 class="technology__title">
+                    Технология монтажа
+                </h2>
+                <p class="technology__text">
+                    По сравнению с традиционными видами монтажа монтаж сэндвич панелей имеет ряд особенностей. Несмотря на то, что 
+                    с работами на достаточно крупном объекте может справиться небольшая бригада, необходимо строго соблюдать технологии, 
+                    иметь инструмент для монтажа, учитывать погодные условия (нельзя монтировать при сильном ветре, дожде и т.д.), проводить 
+                    ежедневную уборку территории от опилок и т.п.
+                </p>
+                <div class="technology__notes">
+                    <p class="technology__note">
+                        <span class="technology__note_bold">
+                            Разновидности монтажа:
+                        </span> 
+                        горизонтальный и вертикальный
+                    </p>
+                    <p class="technology__note">
+                        <span class="technology__note_bold">
+                            Образец монтажной схемы:
+                        </span>
+                         Узел соединения стеновой и кровельной панелей
+                    </p>
+                </div>
+                <div class="technology__images">
+                    <img class="technology__image" src="./images/installation-technology-image1.webp" alt="">
+                    <img class="technology__image" src="./images/installation-technology-image2.webp" alt="">
+                </div>
+                <a href="">
+                    <button class="technology__btn">
+                        <span class="technology__btn-txt">Технический каталог</span>
+                    </button>
+                </a>
+           </div>
+        </div>
+    </section>
+    <section class="process-video">
+        <div class="container">
+            <div class="process-video__content-row">
+                <div class="process-video__description-row">
+                    <h2 class="process-video__title">
+                        Видео монтажа 
+                        сэндвич-панелей
+                    </h2>
+                    <p class="process-video__text">
+                        Материал снят на примере строительства 
+                        недорогого жилья. Сюжет подготовил Первый 
+                        национальный канал ОРТ. Краткая видеоинструкция 
+                        по проведению монтажных работ
+                    </p>
+                </div>
+                <video class="process-video__video" controls="controls">
+                    <source src="flower.webm" type="video/webm">
+                  </video>
+            </div>
+        </div>
+    </section>
+    <section class="fastener">
+        <div class="container">
+            <div class="fastener__content-row">
+                <h2 class="fastener__title">Крепёж для монтажа сэндвич-панелей</h2>
+                <p class="fastener__text">
+                    При необходимости мы комплектуем стеновые и кровельные сэндвич-панели соответствующим крепежом для монтажа: 
+                    саморезами для стеновых панелей, шурупами для листов до 3 мм, саморезами для кровли. Крепёж изготовлен 
+                    из низкоуглеродистой стали в соответствии с техническими требованиями. Он полностью отвечает стандартам безопасности
+                    и обеспечивает длительную эксплуатацию панелей.
+                </p>
+                <p class="fastener__text">              
+                    Качество выполненных работ по монтажу сэндвич панелей зависит от используемых материалов и соблюдения технологии. 
+                    Грамотный подбор и закупка материалов, а также правильное выполнение монтажных работ — непростое и ответственное дело, 
+                    которое вы можете доверить нам!
+                </p>
+                <h4 class="fastener__subtitle">Саморезы для монтажа сэндвич-панелей</h4>
+                <div class="fastener__images-row">
+                    <div class="fastener__images-item">
+                        <img src="./images/installation-fastener-images-item-img1.webp" alt="">
+                        <span class="fastener__images-item-txt">Шуруп ОС для панелей до 6 мм</span>
+                    </div>
+                    <div class="fastener__images-item">
+                        <img src="./images/installation-fastener-images-item-img2.webp" alt="">
+                        <span class="fastener__images-item-txt">Шуруп ОС для панелей до 12 мм</span>
+                    </div>
+                    <div class="fastener__images-item">
+                        <img src="./images/installation-fastener-images-item-img3.webp" alt="">
+                        <span class="fastener__images-item-txt">Шуруп ОС для листов до 3 мм</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery__content">
+                <h2 class="gallery__title">Галерея монтажа сэндвич-панелей</h2>
+                <div class="slider-buttons slider-buttons__installation-gallery">
+                <div class="slider-buttons__row">
+                    <div id="installation__slider-buttons-prev-bg" class="slider-buttons__prev-bg">
+                        <img id="installation__slider-buttons-arrow-prev" class="slider-buttons__img-arrow-prev" src="./images/slider-buttons-prev-arrow.svg" alt="">
+                    </div >
+                    <div id="installation__slider-buttons-next-bg" class="slider-buttons__next-bg"> 
+                        <img id="installation__slider-buttons-arrow-next" class="slider-buttons__img-arrow-next" src="./images/slider-buttons-next-arrow.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="gallery-slider gallery-slider__installation">
+            <img class="gallery-slider__item" src="./images/installation-gallery-img5.webp">
+            <img class="gallery-slider__item" src="./images/installation-gallery-img2.webp">
+            <img class="gallery-slider__item" src="./images/installation-gallery-img3.webp">
+            <img class="gallery-slider__item" src="./images/installation-gallery-img4.webp">
+            <img class="gallery-slider__item" src="./images/installation-gallery-img5.webp">
+            <img class="gallery-slider__item" src="./images/installation-gallery-img4.webp">
+            <img class="gallery-slider__item" src="./images/installation-gallery-img2.webp">
+            <img class="gallery-slider__item" src="./images/installation-gallery-img3.webp">
+            <img class="gallery-slider__item" src="./images/installation-gallery-img4.webp">
+            <img class="gallery-slider__item" src="./images/installation-gallery-img5.webp">
+        </div>
+    </section>
+    <section class="call-form">
+        <img id="call-form__cross" class="call-form__cross" src="./images/call-form-cross.svg" alt="">
+        <button id="call-form__btn" class="call-form__btn"> 
+            <span class="call-form__btn-txt">Перезвоните мне</span>
+        </button>
+        <div class="container">
+            <div class="call-form__row">
+                <div class="call-form__row-title">
+                    <h2>
+                        Остались вопросы?
+                    </h2>
+                    <span>
+                        Оставьте номер телефона и мы ответим на них
+                    </span>
+                </div>
+                <form class="call-form__form" action="">
+                    <div class="call-form__form-row">
+                        <input id="call-form__form-input-phone" class="call-form__form-input" type="text" name="phone" placeholder="Телефон *">
+                        <button id="call-form__form-btn" class="call-form__form-btn" type="submit">
+                            <span class="call-form__form-btn-title">Отправить</span>
+                        </button>
+                        </div>
+                        <div class="call-form__form-chekbox-row">
+                        <input id="call-form__form-chekbox-input" class="call-form__form-chekbox-input" type="checkbox" name="agreementCheck">
+                        <label id="call-form__form-chekbox-label" class="call-form__form-chekbox-label" for="call-form__form-chekbox-input">
+                            Я даю свое согласие на обработку персональных
+                            данных и соглашаюсь с <a href="">условиями</a> и <a href="">политикой конфиденциальности</a>
+                        </label>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__row">
+                <div class="footer__row-description">
+                    <img src="./images/footer-logo.webp" alt="">
+                    <span>
+                        © 2024 «СП-ЦЕНТР»
+                        <br>
+                        <a href="">Политика конфиденциальности</a>
+                        <a href="">Пользовательское соглашение</a>  
+                    </span>
+                </div>
+                <nav class="footer__row-nav">
+                    <ul class="footer__row-nav-list">
+                        <li class="footer__row-nav-list-item">
+                            <a class="footer__row-nav-list-item-link" href="">
+                                О компании
+                            </a>
+                        </li>
+                        <li class="footer__row-nav-list-item">
+                            <a class="footer__row-nav-list-item-link" href="">
+                                Оплата
+                            </a>
+                        </li>
+                        <li class="footer__row-nav-list-item">
+                            <a class="footer__row-nav-list-item-link" href="">
+                                Инфоцентр
+                            </a>
+                        </li>
+                        <li class="footer__row-nav-list-item">
+                            <a class="footer__row-nav-list-item-link" href="">
+                                Доставка
+                            </a>
+                        </li>
+                        <li class="footer__row-nav-list-item">
+                            <a class="footer__row-nav-list-item-link" href="">
+                                Каталог продукции
+                            </a>
+                        </li>
+                        <li class="footer__row-nav-list-item">
+                            <a class="footer__row-nav-list-item-link" href="">
+                                Сертификаты
+                            </a>
+                        </li>
+                        <li class="footer__row-nav-list-item">
+                            <a class="footer__row-nav-list-item-link" href="">
+                                Прочие услуги
+                            </a>
+                        </li>
+                        <li class="footer__row-nav-list-item">
+                            <a class="footer__row-nav-list-item-link" href="">
+                                Гарантии
+                            </a>
+                        </li>
+                        <li class="footer__row-nav-list-item">
+                            <a  class="footer__row-nav-list-item-link" href="">
+                                Вакансии
+                            </a>
+                        </li>
+                        <li class="footer__row-nav-list-item">
+                            <a  class="footer__row-nav-list-item-link" href="">
+                                Калькулятор
+                            </a>
+                        </li>
+                        <li class="footer__row-nav-list-item">
+                            <a class="footer__row-nav-list-item-link" href="">
+                                Готовые объекты
+                            </a>
+                        </li>
+                        <li class="footer__row-nav-list-item">
+                            <a class="footer__row-nav-list-item-link" href="">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__row-contacts">  
+                    <div class="footer__row-contacts-phone">
+                        <img src="./images/footer-phone.webp" alt="">
+                        <span>
+                            <a href=""> +7 800 700-709-8</a>
+                            <br>
+                            бесплатно для регионов РФ
+                        </span>
+                    </div>
+                    <div class="footer__row-contacts-phone">
+                        <img src="./images/footer-phone.webp" alt="">
+                        <span>
+                            <a href="">+7 495 150-49-09</a>
+                            <br>
+                            пн-пт 9:00–18:00
+                        </span>
+                    </div>
+                    <div class="footer__row-contacts-adres">
+                        <img src="./images/footer-location.webp" alt="">
+                        <span>
+                            Москва, Волгоградский проспект,
+                            <br>
+                            д. 47, офис 309 а, БЦ «Куб»
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="location-popup" class="location-popup">
+        <img id="location-popup__cross" class="location-popup__cross" src="./images/cross-img.webp" alt="">
+        <div class="location-popup__container">
+            <h2 class="location-popup__title">Выбор города</h2>
+            <input id="location-popup__input" class="location-popup__input" type="text" placeholder="ваш город">
+            <button class="location-popup__btn"><img class="location-popup__img" src="./images/location-search-img.webp" alt=""></button>
+        </div>
+        <div id="location-popup__cities-wrapper" class="location-popup__cities-wrapper"></div>
+    </div>
+    <div id="request-popup" class="request-popup">
+        <img id="request-popup__cross" class="request-popup__cross" src="./images/request-form-cross.webp" alt="">
+        <div class="request-popup__row">
+            <h2 class="request-popup__title">Отправить заявку</h2>
+            <span class="request-popup__txt">
+                Отправьте заявку, мы свяжемся с вами в ближайшее время
+            </span>
+            <form id="request-popup-form" class="request-popup-form" action="">
+                <div class="request-popup-form__inputs-row">
+                    <div class="request-popup-form__inputs-row_left">
+                        <input id="request-popup-form__input-name" class="request-popup-form__input" placeholder="Имя *" type="text">
+                        <input id="request-popup-form__input-phone" class="request-popup-form__input" placeholder="Телефон *" type="text">
+                        <input id="request-popup-form__input-mail" class="request-popup-form__input" placeholder="E-mail *" type="text">
+                        <button class="file-input">
+                            <label class="file-input__label" for="file-input">
+                                    Прикрепить файл
+                                <img class="file-input__label-img" src="./images/request-form-load-img.webp" alt="">
+                            </label>
+                        </button>
+                        <input id="file-input" type="file" style="display: none;"> 
+                        <div class="request-popup-form__captcha"></div>
+                    </div>
+                    <div class="request-popup-form__inputs-row_rigth">
+                        <textarea id="request-popup-form__textarea" class="request-popup-form__textarea" placeholder="Сообщение" name="" id=""></textarea>
+                        <button class="request-popup-form__btn">
+                            <span class="request-popup-form__btn-txt">Отправить</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="request-popup-form__chekbox-row">
+                    <input id="request-popup-form__chekbox-input" class="request-popup-form__chekbox-input" type="checkbox" name="agreementCheck">
+                    <label id="request-popup-form__chekbox-label" class="request-popup-form__chekbox-label" for="request-popup-form__chekbox-input">
+                        Я даю свое согласие на обработку персональных
+                        данных и соглашаюсь с <a href="">условиями</a> и <a href="">политикой конфиденциальности</a>
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="alert-popup" class="alert-popup">
+        <img id="alert-popup__cross" class="alert-popup__cross" src="./images/request-form-cross.webp" alt="Закрыть">
+        <div class="alert-popup__row">
+            <img src="./images/alert-popup-img.webp" alt="">
+            <h3 class="alert-popup__title">Спасибо!</h3>
+            <span class="alert-popup__info">
+            Ваше сообщение отправлено.
+            <br> Мы свяжемся с вами в ближайшее время
+            </span>
+        </div>
+    </div>
+    <script src="js/main.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+</body>
+</html>

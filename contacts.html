@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title>Document</title>
     <link rel="stylesheet" href="css/style.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" type="text/css" media="screen" />
+    <title>Document</title>
 </head>
 <body>
     <header class="header">
@@ -450,361 +449,228 @@
             <div class="bread-crumbs__row">
                 <a href="./index.html">Главная</a>
                 <span class="bread-crumbs__pipe">|</span>
-                <a href="./catalog1.html">Каталог</a>
+                <a href="./contacts.html">Контакты</a>
             </div>
         </div>
     </section>
-    <section class="description">
+    <div class="contacts-content-wrapper">
         <div class="container">
-            <div class="description__content-row">
-                <div class="description__text-row">
-                    <h1 class="description__title">Каталог</h1>
-                    <p class="description__paragraph">
-                        В этом разделе представлен ассортимент продукции компании 
-                        «СП-Центр»: кровельные сэндвич-панели, стеновые сэндвич-панели, 
-                        доборные элементы, крепежи, а также металлоконструкции. 
-                        Вся продукция сертифицирована.
-                    </p>
-                </div>
-                <div class="description__images-row">
-                    <div class="description__image-bg">
-                        <img class="description__image" src="./images/description__image-sertificate.webp" alt="">
-                        <span class="description__image-txt">Сертификаты</span>
+            <h1>Контакты</h1>
+            <section class="office">
+                <div class="office__content-row">
+                    <div class="contact-info">
+                        <h2 class="contact-info__title">Офис СП-Центр в Москве</h2>
+                        <div class="contact-info__phones">
+                            <div class="phone-link-row phone-link-row__contacts">
+                                <span class="phone-link-row__txt">
+                                    <a class="phone-link-row__link" href="">+7 800 700-709-8</a>
+                                    <br>
+                                    бесплатно для регионов РФ
+                                </span>
+                            </div>
+                            <div class="phone-link-row phone-link-row__contacts">
+                                <a class="phone-link-row__link" href="">+7 495 150-49-09</a>
+                            </div>
+                        </div>
+                        <div class="contact-info__address">
+                            <img class="contact-info__address-img" src="./images/contacts-address-image.webp" alt="">
+                            <span class="contact-info__address-txt">
+                                109316, г. Москва, Волгоградский проспект,
+                                д. 47, офис 309а, БЦ «Куб» 
+                                <a class="contact-info__address-link" href="">схема проезда</a>
+                            </span>
+                        </div>
+                        <div class="contact-info__time">
+                            <img class="contact-info__time-img" src="./images/contacts-time-image.webp" alt="">
+                            <span class="contact-info__time-txt">пн-пт 9:00–18:00</span>
+                        </div>
+                        <div class="contact-info__email">
+                            <img class="contact-info__email-img" src="./images/contacts-email-image.webp" alt="">
+                            <a class="contact-info__email-link" href="">info@spcentr.ru</a>
+                        </div>
                     </div>
-                    <div class="description__image-bg">
-                        <img class="description__image" src="./images/description__image-guarantees.webp" alt="">
-                        <span class="description__image-txt">Гарантии</span>
+                    <div class="requisite">
+                        <h2 class="requisite__title">Реквизиты компании</h2>
+                        <div class="requisite__content-row">
+                            <span class="requisite__field">ООО «СП-ЦЕНТР»</span>
+                            <span class="requisite__field">ИНН: 7701740077</span>
+                            <span class="requisite__field">КПП: 505001001</span>
+                            <span class="requisite__field">ОГРН: 1077759119680</span>
+                            <span class="requisite__field-address">
+                                Юридический адрес: <br> 
+                                141147, Московская область, 
+                                Щелковский р-н, д. Еремино
+                            </span>
+                            <button class="requisite__btn">
+                                <span class="requisite__btn-txt">Скачать реквизиты</span>
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section class="catalog">
-        <div class="container">
-            <nav class="catalog__menu">
-                <ul class="catalog__menu-list">
-                    <li class="catalog__menu-item">
-                        <img class="product-item__img" src="./images/catalog-menu-item-image1.webp" alt="">
-                        <span class="product-item__name">Сэндвич-панели </span>
-                        <span class="product-item__price">от 2 491 руб./м2</span>
-                        <p class="product-item__txt">
-                            Сэндвич панели «СП-Центр» — трехслойный 
-                            строительный материал, предназначенный 
-                            для возведения стен и кровли. Наружные слои 
-                            панели — окрашенная оцинкованная <a class="product-item__txt-link" href="">Подробнее</a>
-                        </p>
-                        <a class="product-item__link" href="./catalog2.html">
-                            <button class="product-item__link-btn">
-                                <span class="product-item__link-btn-txt">Купить</span>
-                            </button>
-                        </a>
+                <div id="office" class="office__map"></div>
+            </section>
+            <section class="our-workers">
+                <h2>Наши сотрудники</h2>
+                <ul class="our-workers__list">
+                    <li class="our-workers__item">
+                        <img class="our-workers__item-img" src="./images/contacts-our-workers-img1.webp" alt="">
+                        <div class="our-workers__item-info-row">
+                            <span class="our-workers__item-name">Азараев Иосиф Сионович</span>
+                            <span class="our-workers__item-post">
+                                генеральный 
+                                директор
+                                «СП-центр»
+                            </span>
+                            <a class="our-workers__item-phone" href="">+7 (903) 675-62-62</a>
+                            <a class="our-workers__item-email" href="">azaraev@spcentr.ru</a>
+                        </div>
                     </li>
-                    <li class="catalog__menu-item">
-                        <img class="product-item__img" src="./images/catalog-menu-item-image1.webp" alt="">
-                        <span class="product-item__name">Сэндвич-панели </span>
-                        <span class="product-item__price">от 2 491 руб./м2</span>
-                        <p class="product-item__txt">
-                            Сэндвич панели «СП-Центр» — трехслойный 
-                            строительный материал, предназначенный 
-                            для возведения стен и кровли. Наружные слои 
-                            панели — окрашенная оцинкованная  <a class="product-item__txt-link" href="">Подробнее</a>
-                        </p>
-                        <a class="product-item__link" href="./catalog2.html">
-                            <button class="product-item__link-btn">
-                                <span class="product-item__link-btn-txt">Купить</span>
-                            </button>
-                        </a>
+                    <li class="our-workers__item">
+                        <img class="our-workers__item-img" src="./images/contacts-our-workers-img2.webp" alt="">
+                        <div class="our-workers__item-info-row">
+                            <span class="our-workers__item-name">Киселева Анастасия Михайловна</span>
+                            <span class="our-workers__item-post">
+                                менеджер отдела продаж 
+                                шумозащитных экранов 
+                                и металлоконструкций
+                            </span>
+                            <a class="our-workers__item-phone" href="">+7 (903) 675-62-62</a>
+                            <a class="our-workers__item-email" href="">screens@spcentr.ru</a>
+                        </div>
                     </li>
-                    <li class="catalog__menu-item">
-                        <img class="product-item__img" src="./images/catalog-menu-item-image1.webp" alt="">
-                        <span class="product-item__name">Сэндвич-панели </span>
-                        <span class="product-item__price">от 2 491 руб./м2</span>
-                        <p class="product-item__txt">
-                            Сэндвич панели «СП-Центр» — трехслойный 
-                            строительный материал, предназначенный 
-                            для возведения стен и кровли. Наружные слои 
-                            панели — окрашенная оцинкованная  <a class="product-item__txt-link" href="">Подробнее</a>
-                        </p>
-                        <a class="product-item__link" href="./catalog2.html">
-                            <button class="product-item__link-btn">
-                                <span class="product-item__link-btn-txt">Купить</span>
-                            </button>
-                        </a>
+                    <li class="our-workers__item">
+                        <img class="our-workers__item-img" src="./images/contacts-our-workers-img1.webp" alt="">
+                        <div class="our-workers__item-info-row">
+                            <span class="our-workers__item-name">Азараев Иосиф Сионович</span>
+                            <span class="our-workers__item-post">
+                                генеральный 
+                                директор
+                                «СП-центр»
+                            </span>
+                            <a class="our-workers__item-phone" href="">+7 (903) 675-62-62</a>
+                            <a class="our-workers__item-email" href="">azaraev@spcentr.ru</a>
+                        </div>
                     </li>
-                    <li class="catalog__menu-item">
-                        <img class="product-item__img" src="./images/catalog-menu-item-image1.webp" alt="">
-                        <span class="product-item__name">Сэндвич-панели </span>
-                        <span class="product-item__price">от 2 491 руб./м2</span>
-                        <p class="product-item__txt">
-                            Сэндвич панели «СП-Центр» — трехслойный 
-                            строительный материал, предназначенный 
-                            для возведения стен и кровли. Наружные слои 
-                            панели — окрашенная оцинкованная  <a class="product-item__txt-link" href="">Подробнее</a>
-                        </p>
-                        <a class="product-item__link" href="./catalog2.html">
-                            <button class="product-item__link-btn">
-                                <span class="product-item__link-btn-txt">Купить</span>
-                            </button>
-                        </a>
+                    <li class="our-workers__item">
+                        <img class="our-workers__item-img" src="./images/contacts-our-workers-img1.webp" alt="">
+                        <div class="our-workers__item-info-row">
+                            <span class="our-workers__item-name">Азараев Иосиф Сионович</span>
+                            <span class="our-workers__item-post">
+                                генеральный 
+                                директор
+                                «СП-центр»
+                            </span>
+                            <a class="our-workers__item-phone" href="">+7 (903) 675-62-62</a>
+                            <a class="our-workers__item-email" href="">azaraev@spcentr.ru</a>
+                        </div>
                     </li>
-                    <li class="catalog__menu-item">
-                        <img class="product-item__img" src="./images/catalog-menu-item-image1.webp" alt="">
-                        <span class="product-item__name">Сэндвич-панели </span>
-                        <span class="product-item__price">от 2 491 руб./м2</span>
-                        <p class="product-item__txt">
-                            Сэндвич панели «СП-Центр» — трехслойный 
-                            строительный материал, предназначенный 
-                            для возведения стен и кровли. Наружные слои 
-                            панели — окрашенная оцинкованная  <a class="product-item__txt-link" href="">Подробнее</a>
-                        </p>
-                        <a class="product-item__link" href="./catalog2.html">
-                            <button class="product-item__link-btn">
-                                <span class="product-item__link-btn-txt">Купить</span>
-                            </button>
-                        </a>
+                    <li class="our-workers__item">
+                        <img class="our-workers__item-img" src="./images/contacts-our-workers-img2.webp" alt="">
+                        <div class="our-workers__item-info-row">
+                            <span class="our-workers__item-name">Киселева Анастасия Михайловна</span>
+                            <span class="our-workers__item-post">
+                                менеджер отдела продаж 
+                                шумозащитных экранов 
+                                и металлоконструкций
+                            </span>
+                            <a class="our-workers__item-phone" href="">+7 (903) 675-62-62</a>
+                            <a class="our-workers__item-email" href="">screens@spcentr.ru</a>
+                        </div>
                     </li>
-                    <li class="catalog__menu-item">
-                        <img class="product-item__img" src="./images/catalog-menu-item-image1.webp" alt="">
-                        <span class="product-item__name">Сэндвич-панели </span>
-                        <span class="product-item__price">от 2 491 руб./м2</span>
-                        <p class="product-item__txt">
-                            Сэндвич панели «СП-Центр» — трехслойный 
-                            строительный материал, предназначенный 
-                            для возведения стен и кровли. Наружные слои 
-                            панели — окрашенная оцинкованная  <a class="product-item__txt-link" href="">Подробнее</a>
-                        </p>
-                        <a class="product-item__link" href="./catalog2.html">
-                            <button class="product-item__link-btn">
-                                <span class="product-item__link-btn-txt">Купить</span>
+                    <li class="our-workers__banner">
+                        <div class="our-workers__banner-content-row">
+                            <h2 class="our-workers__banner-title">
+                                Рассчитаем
+                                ваш проект
+                            </h2>
+                            <button class="our-workers__banner-btn">
+                                <span class="our-workers__banner-btn-txt">Оставить заявку</span>
                             </button>
-                        </a>
-                    </li>
-                    <li class="catalog__menu-item">
-                        <img class="product-item__img" src="./images/catalog-menu-item-image1.webp" alt="">
-                        <span class="product-item__name">Сэндвич-панели </span>
-                        <span class="product-item__price">от 2 491 руб./м2</span>
-                        <p class="product-item__txt">
-                            Сэндвич панели «СП-Центр» — трехслойный 
-                            строительный материал, предназначенный 
-                            для возведения стен и кровли. Наружные слои 
-                            панели — окрашенная оцинкованная  <a class="product-item__txt-link" href="">Подробнее</a>
-                        </p>
-                        <a class="product-item__link" href="./catalog2.html">
-                            <button class="product-item__link-btn">
-                                <span class="product-item__link-btn-txt">Купить</span>
-                            </button>
-                        </a>
-                    </li>
-                    <li class="catalog__menu-item">
-                        <img class="product-item__img" src="./images/catalog-menu-item-image1.webp" alt="">
-                        <span class="product-item__name">Сэндвич-панели </span>
-                        <span class="product-item__price">от 2 491 руб./м2</span>
-                        <p class="product-item__txt">
-                            Сэндвич панели «СП-Центр» — трехслойный 
-                            строительный материал, предназначенный 
-                            для возведения стен и кровли. Наружные слои 
-                            панели — окрашенная оцинкованная  <a class="product-item__txt-link" href="">Подробнее</a>
-                        </p>
-                        <a class="product-item__link" href="./catalog2.html">
-                            <button class="product-item__link-btn">
-                                <span class="product-item__link-btn-txt">Купить</span>
-                            </button>
-                        </a>
-                    </li>
-                    <li class="catalog__menu-item">
-                        <img class="product-item__img" src="./images/catalog-menu-item-image1.webp" alt="">
-                        <span class="product-item__name">Сэндвич-панели </span>
-                        <span class="product-item__price">от 2 491 руб./м2</span>
-                        <p class="product-item__txt">
-                            Сэндвич панели «СП-Центр» — трехслойный 
-                            строительный материал, предназначенный 
-                            для возведения стен и кровли. Наружные слои 
-                            панели — окрашенная оцинкованная  <a class="product-item__txt-link" href="">Подробнее</a>
-                        </p>
-                        <a class="product-item__link" href="./catalog2.html">
-                            <button class="product-item__link-btn">
-                                <span class="product-item__link-btn-txt">Купить</span>
-                            </button>
-                        </a>
-                    </li>
-                    <li class="catalog__menu-item">
-                        <img class="product-item__img" src="./images/catalog-menu-item-image1.webp" alt="">
-                        <span class="product-item__name">Сэндвич-панели </span>
-                        <span class="product-item__price">от 2 491 руб./м2</span>
-                        <p class="product-item__txt">
-                            Сэндвич панели «СП-Центр» — трехслойный 
-                            строительный материал, предназначенный 
-                            для возведения стен и кровли. Наружные слои 
-                            панели — окрашенная оцинкованная  <a class="product-item__txt-link" href="">Подробнее</a>
-                        </p>
-                        <a class="product-item__link" href="./catalog2.html">
-                            <button class="product-item__link-btn">
-                                <span class="product-item__link-btn-txt">Купить</span>
-                            </button>
-                        </a>
-                    </li>
-                    <li class="catalog__menu-item">
-                        <img class="product-item__img" src="./images/catalog-menu-item-image1.webp" alt="">
-                        <span class="product-item__name">Сэндвич-панели </span>
-                        <span class="product-item__price">от 2 491 руб./м2</span>
-                        <p class="product-item__txt">
-                            Сэндвич панели «СП-Центр» — трехслойный 
-                            строительный материал, предназначенный 
-                            для возведения стен и кровли. Наружные слои 
-                            панели — окрашенная оцинкованная  <a class="product-item__txt-link" href="">Подробнее</a>
-                        </p>
-                        <a class="product-item__link" href="./catalog2.html">
-                            <button class="product-item__link-btn">
-                                <span class="product-item__link-btn-txt">Купить</span>
-                            </button>
-                        </a>
-                    </li>
-                    <li class="catalog__menu-item">
-                        <img class="product-item__img" src="./images/catalog-menu-item-image1.webp" alt="">
-                        <span class="product-item__name">Сэндвич-панели </span>
-                        <span class="product-item__price">от 2 491 руб./м2</span>
-                        <p class="product-item__txt">
-                            Сэндвич панели «СП-Центр» — трехслойный 
-                            строительный материал, предназначенный 
-                            для возведения стен и кровли. Наружные слои 
-                            панели — окрашенная оцинкованная  <a class="product-item__txt-link" href="">Подробнее</a>
-                        </p>
-                        <a class="product-item__link" href="./catalog2.html">
-                            <button class="product-item__link-btn">
-                                <span class="product-item__link-btn-txt">Купить</span>
-                            </button>
-                        </a>
-                    </li>
-                    <li class="catalog__menu-item">
-                        <img class="product-item__img" src="./images/catalog-menu-item-image1.webp" alt="">
-                        <span class="product-item__name">Сэндвич-панели </span>
-                        <span class="product-item__price">от 2 491 руб./м2</span>
-                        <p class="product-item__txt">
-                            Сэндвич панели «СП-Центр» — трехслойный 
-                            строительный материал, предназначенный 
-                            для возведения стен и кровли. Наружные слои 
-                            панели — окрашенная оцинкованная  <a class="product-item__txt-link" href="">Подробнее</a>
-                        </p>
-                        <a class="product-item__link" href="./catalog2.html">
-                            <button class="product-item__link-btn">
-                                <span class="product-item__link-btn-txt">Купить</span>
-                            </button>
-                        </a>
-                    </li>
-                    <li class="catalog__menu-item">
-                        <img class="product-item__img" src="./images/catalog-menu-item-image1.webp" alt="">
-                        <span class="product-item__name">Сэндвич-панели </span>
-                        <span class="product-item__price">от 2 491 руб./м2</span>
-                        <p class="product-item__txt">
-                            Сэндвич панели «СП-Центр» — трехслойный 
-                            строительный материал, предназначенный 
-                            для возведения стен и кровли. Наружные слои 
-                            панели — окрашенная оцинкованная  <a class="product-item__txt-link" href="">Подробнее</a>
-                        </p>
-                        <a class="product-item__link" href="./catalog2.html">
-                            <button class="product-item__link-btn">
-                                <span class="product-item__link-btn-txt">Купить</span>
-                            </button>
-                        </a>
-                    </li>
-                    <li class="catalog__menu-item">
-                        <img class="product-item__img" src="./images/catalog-menu-item-image1.webp" alt="">
-                        <span class="product-item__name">Сэндвич-панели </span>
-                        <span class="product-item__price">от 2 491 руб./м2</span>
-                        <p class="product-item__txt">
-                            Сэндвич панели «СП-Центр» — трехслойный 
-                            строительный материал, предназначенный 
-                            для возведения стен и кровли. Наружные слои 
-                            панели — окрашенная оцинкованная  <a class="product-item__txt-link" href="">Подробнее</a>
-                        </p>
-                        <a class="product-item__link" href="./catalog2.html">
-                            <button class="product-item__link-btn">
-                                <span class="product-item__link-btn-txt">Купить</span>
-                            </button>
-                        </a>
+                        </div>
                     </li>
                 </ul>
-            </nav>
-        </div>
-    </section>
-    <section class="catalog__mobile-verse ">
-        <div id="catalog-slider__catalog1-page" class="catalog-slider catalog-slider__catalog1-page">
-            <div class="catalog-slider__item">
-                <img class="catalog-slider__image" src="./images/catalog-slider-img1.webp" alt="">
-                <span class="catalog-slider__name">Сэндвич-панели </span>
-                <span class="catalog-slider__price">от 2 491 руб./м2</span>
-                <p class="catalog-slider__text">
-                    Сэндвич панели «СП-Центр» — трехслойный 
-                    строительный материал, предназначенный 
-                    для возведения стен и кровли. Наружные слои 
-                    панели — окрашенная оцинкованная <a class="catalog-slider__text-link" href=""> Подробнее</a>
-                </p>
-                <a class="catalog-slider__link" href="./catalog2.html">
-                    <button class="catalog-slider__link-btn">
-                        <span class="catalog-slider__link-btn-txt">Купить</span>
-                    </button>
-                </a>
-            </div>
-            <div class="catalog-slider__item">
-                <img class="catalog-slider__image" src="./images/catalog-slider-img1.webp" alt="">
-                <span class="catalog-slider__name">Сэндвич-панели </span>
-                <span class="catalog-slider__price">от 2 491 руб./м2</span>
-                <p class="catalog-slider__text">
-                    Сэндвич панели «СП-Центр» — трехслойный 
-                    строительный материал, предназначенный 
-                    для возведения стен и кровли. Наружные слои 
-                    панели — окрашенная оцинкованная <a class="catalog-slider__text-link" href=""> Подробнее</a>
-                </p>
-                <a class="catalog-slider__link" href="./catalog2.html">
-                    <button class="catalog-slider__link-btn">
-                        <span class="catalog-slider__link-btn-txt">Купить</span>
-                    </button>
-                </a>
-            </div>
-            <div class="catalog-slider__item">
-                <img class="catalog-slider__image" src="./images/catalog-slider-img1.webp" alt="">
-                <span class="catalog-slider__name">Сэндвич-панели </span>
-                <span class="catalog-slider__price">от 2 491 руб./м2</span>
-                <p class="catalog-slider__text">
-                    Сэндвич панели «СП-Центр» — трехслойный 
-                    строительный материал, предназначенный 
-                    для возведения стен и кровли. Наружные слои 
-                    панели — окрашенная оцинкованная <a class="catalog-slider__text-link" href=""> Подробнее</a>
-                </p>
-                <a class="catalog-slider__link" href="./catalog2.html">
-                    <button class="catalog-slider__link-btn">
-                        <span class="catalog-slider__link-btn-txt">Купить</span>
-                    </button>
-                </a>
-            </div>
-            <div class="catalog-slider__item">
-                <img class="catalog-slider__image" src="./images/catalog-slider-img1.webp" alt="">
-                <span class="catalog-slider__name">Сэндвич-панели </span>
-                <span class="catalog-slider__price">от 2 491 руб./м2</span>
-                <p class="catalog-slider__text">
-                    Сэндвич панели «СП-Центр» — трехслойный 
-                    строительный материал, предназначенный 
-                    для возведения стен и кровли. Наружные слои 
-                    панели — окрашенная оцинкованная <a class="catalog-slider__text-link" href=""> Подробнее</a>
-                </p>
-                <a class="catalog-slider__link" href="./catalog2.html">
-                    <button class="catalog-slider__link-btn">
-                        <span class="catalog-slider__link-btn-txt">Купить</span>
-                    </button>
-                </a>
-            </div>
-        </div>
-        <div class="slider-buttons slider-buttons__catalog-slider">
-            <div class="slider-buttons__row">
-                <div id="catalog1__slider-buttons-prev-bg" class="slider-buttons__prev-bg">
-                    <img id="catalog1__slider-buttons-arrow-prev" class="slider-buttons__img-arrow-prev" src="./images/slider-buttons-prev-arrow.svg" alt="">
-                </div >
-                <div id="catalog1__slider-buttons-next-bg" class="slider-buttons__next-bg"> 
-                    <img id="catalog1__slider-buttons-arrow-next" class="slider-buttons__img-arrow-next" src="./images/slider-buttons-next-arrow.svg" alt="">
+            </section>
+            <section class="production">
+                <div class="production__content-column">
+                    <h2>Производство в Подмосковье</h2>
+                    <div class="production__contacts-row">
+                        <a class="production__phone" href="">+7 (903) 726-07-64</a>
+                        <div class="production__address">
+                            <img class="production__address-img" src="./images/contacts-address-image.webp" alt="">
+                            <span class="production__address-txt">
+                                Московская область, Щёлковский район, деревня Еремино
+                                <a class="production__address-link" href="">схема проезда</a>
+                            </span>
+                        </div>
+                    </div>
+                    <div id="production" class="production__map"></div>
                 </div>
-            </div>
+            </section>
+            <section class="agency">
+                <h2>Представительства и региональные филиалы</h2>
+                <ul class="agency__list">
+                    <li class="agency__item">
+                        <div class="agency__item-content-column">
+                            <span class="agency__item-name">ООО «СП-Север», Санкт-Петербург</span>
+                            <div class="agency__item-address">
+                                <img class="agency__item-address-img" src="./images/contacts-address-image.webp" alt="">
+                                <span class="agency__item-address-txt">
+                                    97349, Санкт-Петербург, ул. Вербная, д. 27, оф. 512
+                                </span>
+                            </div>
+                            <div class="agency__item-worker">
+                                <img class="agency__item-worker-img" src="./images/contacts-our-workers-img1.webp" alt="">
+                                <div class="agency__item-worker-info">
+                                    <span class="agency__item-worker-name">Азараев Иосиф Сионович</span>
+                                    <span class="agency__item-worker-post">
+                                        генеральный 
+                                        директор
+                                        «СП-центр»
+                                    </span>
+                                    <a class="agency__item-worker-phone" href="">+7 (903) 675-62-62</a>
+                                    <a class="agency__item-worker-email" href="">azaraev@spcentr.ru</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="agency__item">
+                        <div class="agency__item-content-column">
+                            <span class="agency__item-name">ООО «Авалон», Ярославль</span>
+                            <div class="agency__item-address">
+                                <img class="agency__item-address-img" src="./images/contacts-address-image.webp" alt="">
+                                <span class="agency__item-address-txt">
+                                    Ярославль, ул. Калинина, 18
+                                </span>
+                            </div>
+                            <div class="agency__item-worker">
+                                <img class="agency__item-worker-img" src="./images/contacts-our-workers-img1.webp" alt="">
+                                <div class="agency__item-worker-info">
+                                    <span class="agency__item-worker-name">
+                                        Чемшит
+                                        Алексей Борисович
+                                    </span>
+                                    <span class="agency__item-worker-post">
+                                        коммерческий директор
+                                    </span>
+                                    <a class="agency__item-worker-phone" href="">+7 (4852) 282-720</a>
+                                    <a class="agency__item-worker-phone" href="">+7 (962) 202-01-11</a>
+                                    <a class="agency__item-worker-email" href="">mail@avalon-ltd.ru</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <p class="useful-information">
+                Наши специалисты готовы ответить на все вопросы по продукции компании «СП-Центр», поставкам и условиям сотрудничества.
+                <br><br>
+                В списке контактов найдите ближайшее к вам представительство. Если рядом никого нет, обращайтесь в московский центральный 
+                офис. Наши специалисты ответят на все ваши вопросы по продажам сэндвич панелей и другой продукции «СП-Центр», поставкам
+                и условиям сотрудничества, срокам изготовления изделий, рассчитают объект и окажут другую консультационную поддержку. 
+                Также вы можете обсудить с нами возможность партнерства.
+            </p>   
         </div>
-    </section>
+    </div>
     <section class="call-form">
         <img id="call-form__cross" class="call-form__cross" src="./images/call-form-cross.svg" alt="">
         <button id="call-form__btn" class="call-form__btn"> 
@@ -826,14 +692,14 @@
                         <button id="call-form__form-btn" class="call-form__form-btn" type="submit">
                             <span class="call-form__form-btn-title">Отправить</span>
                         </button>
-                      </div>
-                      <div class="call-form__form-chekbox-row">
+                        </div>
+                        <div class="call-form__form-chekbox-row">
                         <input id="call-form__form-chekbox-input" class="call-form__form-chekbox-input" type="checkbox" name="agreementCheck">
                         <label id="call-form__form-chekbox-label" class="call-form__form-chekbox-label" for="call-form__form-chekbox-input">
-                          Я даю свое согласие на обработку персональных
-                          данных и соглашаюсь с <a href="">условиями</a> и <a href="">политикой конфиденциальности</a>
+                            Я даю свое согласие на обработку персональных
+                            данных и соглашаюсь с <a href="">условиями</a> и <a href="">политикой конфиденциальности</a>
                         </label>
-                      </div>
+                        </div>
                 </form>
             </div>
         </div>
@@ -918,7 +784,7 @@
                     <div class="footer__row-contacts-phone">
                         <img src="./images/footer-phone.webp" alt="">
                         <span>
-                           <a href=""> +7 800 700-709-8</a>
+                            <a href=""> +7 800 700-709-8</a>
                             <br>
                             бесплатно для регионов РФ
                         </span>
@@ -967,7 +833,7 @@
                         <input id="request-popup-form__input-mail" class="request-popup-form__input" placeholder="E-mail *" type="text">
                         <button class="file-input">
                             <label class="file-input__label" for="file-input">
-                                 Прикрепить файл
+                                    Прикрепить файл
                                 <img class="file-input__label-img" src="./images/request-form-load-img.webp" alt="">
                             </label>
                         </button>
@@ -984,8 +850,8 @@
                 <div class="request-popup-form__chekbox-row">
                     <input id="request-popup-form__chekbox-input" class="request-popup-form__chekbox-input" type="checkbox" name="agreementCheck">
                     <label id="request-popup-form__chekbox-label" class="request-popup-form__chekbox-label" for="request-popup-form__chekbox-input">
-                      Я даю свое согласие на обработку персональных
-                      данных и соглашаюсь с <a href="">условиями</a> и <a href="">политикой конфиденциальности</a>
+                        Я даю свое согласие на обработку персональных
+                        данных и соглашаюсь с <a href="">условиями</a> и <a href="">политикой конфиденциальности</a>
                     </label>
                 </div>
             </form>
@@ -994,17 +860,19 @@
     <div id="alert-popup" class="alert-popup">
         <img id="alert-popup__cross" class="alert-popup__cross" src="./images/request-form-cross.webp" alt="Закрыть">
         <div class="alert-popup__row">
-          <img src="./images/alert-popup-img.webp" alt="">
-          <h3 class="alert-popup__title">Спасибо!</h3>
-          <span class="alert-popup__info">
+            <img src="./images/alert-popup-img.webp" alt="">
+            <h3 class="alert-popup__title">Спасибо!</h3>
+            <span class="alert-popup__info">
             Ваше сообщение отправлено.
             <br> Мы свяжемся с вами в ближайшее время
-          </span>
+            </span>
         </div>
     </div>
     <div id="popup-wrapper" class="popup-wrapper"></div>
     <a href="#" id="scrolling"></a>
     <script src="js/main.min.js"></script>
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac419b874f221145d23b0687b9bc0399843adfe2b0e3a19d0f72466a44d87c1b4&amp;id=office&amp;width=1140&amp;height=363&amp;lang=ru_RU&amp;scroll=true"></script>
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9b19550aee1c99bfc8433e4e709faf33192e51da0273bd81ec4b22729a8d1f0a&amp;id=production&amp;width=1140&amp;height=363&amp;lang=ru_RU&amp;scroll=false"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 </body>
 </html>

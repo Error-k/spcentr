@@ -461,7 +461,18 @@
     <section class="product-card-content">
         <div class="container">
             <div class="product-card-content__row">
-                <form class="filters">
+                <div class="mobile-filters-header">
+                    <div class="mobile-filters-header__close-menu">
+                        <button id="mobile-filters-header__show-btn" class="mobile-filters-header__show-btn">
+                            <span class="mobile-filters-header__show-btn-txt">Фильтры</span>
+                        </button>
+                        <a class="tech-catalog-link" href="">
+                            <img class="tech-catalog-link__img" src="./images/picture-pdf-link.webp" alt="">
+                            Технический каталог
+                        </a>
+                    </div>
+                </div>
+                <form class="filters filters__descktop">
                     <div class="filter-accardion">
                         <div class="filter-accardion__head">
                             <span class="filter-accardion__head-name">Вид утеплителя</span>
@@ -680,9 +691,11 @@
                                                 <button class="colors__color-btn colors__color-btn_474A50"></button>
                                             </li>
                                             <li class="colors__ral-catalog">
-                                                <button class="colors__ral-catalog-btn">
-                                                    <span class="colors__ral-catalog-btn-txt">ВЕСЬ КАТАЛОГ RAL</span>
-                                                </button>
+                                                <a href="./ral-page.html">
+                                                    <button class="colors__ral-catalog-btn">
+                                                        <span class="colors__ral-catalog-btn-txt">ВЕСЬ КАТАЛОГ RAL</span>
+                                                    </button>
+                                                </a>
                                             </li>
                                         </ul>
                                     </div>
@@ -713,7 +726,7 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <p class="information__txt">
+                                    <p class="product-card-paragraph-txt information__txt">
                                         В качестве наполнителя служит 
                                         минеральная вата с водоотталкивающими, 
                                         тепло- и звукоизоляционными свойствами 
@@ -1330,6 +1343,1170 @@
                             </div>
                         </section>
                     </section>
+                    <section class="product-card-accordion-poppups-wrapper">
+                        <div class="product-card-accordion-poppup">
+                            <div class="product-card-accordion-poppup__head">
+                                <span class="product-card-accordion-poppup__head-name">Описание</span>
+                                <img class="product-card-accordion-poppup__head-img" src="./images/table-adaptive-arrow_black.svg" alt="">
+                            </div>
+                            <div class="product-card-accordion-poppup__body">
+                                <section id="specification" class="specification">
+                                    <p class="product-card-paragraph-txt specification__txt">
+                                        Кровельные сэндвич-панели — эффективный и недорогой материал, пользующийся популярностью
+                                        на строительном рынке. Панель состоит из трех слоев: двух металлических оболочек и теплоизоляции 
+                                        в центре. Толщина изделия может варьироваться, выбор определяется исходя из потребностей 
+                                        клиента.
+                                    </p>
+                                    <h2 class="specification__title">Особенности</h2>
+                                    <p class="product-card-paragraph-txt  specification__txt">
+                                        Сэндвич-панели отличаются высокими эксплуатационными характеристиками. Они позволяют 
+                                        значительно удешевить процесс возведения кровли благодаря укладке на больших шагах между 
+                                        прогонами. Согласно официальной статистике, большая часть торговых и промышленных зданий 
+                                        в России построены с применением кровельных сэндвич-панелей. Укладывать их необходимо 
+                                        под углом 5 градусов или больше, чтобы влага не скапливалась на крыше.
+                                    </p>
+                                    <h2 class="specification__title">Преимущества</h2>
+                                    <ul class="specification__list">
+                                        <p class="product-card-list-txt specification__list-txt">
+                                            Сэндвич-панели получили широкое распространение в строительном 
+                                            секторе экономики благодаря своим возможностям и плюсам:
+                                        </p>
+                                        <li class="product-card-ul-li-txt specification__list-item">
+                                            <p>Адаптации к негативным климатическим условиям</p>
+                                        </li>
+                                        <li class="product-card-ul-li-txt specification__list-item">
+                                            <p>Отсутствию дополнительной нагрузки на фундамент</p>
+                                        </li>
+                                        <li class="product-card-ul-li-txt specification__list-item">
+                                            <p>Не деформируется под воздействием снега</p>
+                                        </li>
+                                        <li class="product-card-ul-li-txt specification__list-item">
+                                            <p>Выполнение работ осуществляется круглый год независимо от сезона</p>
+                                        </li>
+                                        <li class="product-card-ul-li-txt specification__list-item">
+                                            <p>Экономичности транспортировки</p>
+                                        </li>
+                                        <li class="product-card-ul-li-txt specification__list-item">
+                                            <p>Отличным показателям звукоизоляции и теплоизоляции</p>
+                                        </li>
+                                        <li class="product-card-ul-li-txt specification__list-item">
+                                            <p>Антикоррозийным свойствам</p>
+                                        </li>
+                                        <li class="product-card-ul-li-txt specification__list-item">
+                                            <p>Огнестойкости</p>
+                                        </li>
+                                        <li class="product-card-ul-li-txt specification__list-item">
+                                            <p>Многообразию расцветок и размеров</p>
+                                        </li>
+                                    </ul>
+                                    <h2 class="specification__title">Преимущества</h2>
+                                    <ol class="product-card-num-list specification__num-list">
+                                        <p class="product-card-list-txt specification__list-txt">
+                                            Сэндвич-панели получили широкое распространение в строительном 
+                                            секторе экономики благодаря своим возможностям и плюсам:
+                                        </p>
+                                        <li class="product-card-ol-li-txt specification__num-list-item">
+                                            <p class="specification__num-list-item-txt">Адаптации к негативным климатическим условиям</p>
+                                        </li>
+                                        <li class="product-card-ol-li-txt specification__num-list-item">
+                                            <p class="specification__num-list-item-txt">Отсутствию дополнительной нагрузки на фундамент</p>
+                                        </li>
+                                        <li class="product-card-ol-li-txt specification__num-list-item">
+                                            <p class="specification__num-list-item-txt">Не деформируется под воздействием снега</p>
+                                        </li>
+                                        <li class="product-card-ol-li-txt specification__num-list-item">
+                                            <p class="specification__num-list-item-txt">Выполнение работ осуществляется круглый год независимо от сезона</p>
+                                        </li>
+                                    </ol>
+                                    <div class="specification__notice">
+                                        <p class="specification__notice-txt">
+                                            Приобретая кровельные сэндвич панели от производителя
+                                            напрямую, можно существенно сэкономить на покупке!
+                                        </p>
+                                    </div>
+                                    <h2 class="specification__title">Типы наполнителя</h2>
+                                    <ol class="product-card-num-list specification__num-list">
+                                        <p class="product-card-list-txt specification__list-txt">
+                                            Если вы находитесь в поиске наполнителей для стеновых и кровельных сэндвич-панелей, 
+                                            компания «СП-Центр» готова предложить различные варианты по выгодной цене. 
+                                            Сегодня рынок предлагает следующие наполнители:
+                                        </p>
+                                        <li class="product-card-ol-li-txt specification__num-list-item specification__num-list-item_types">
+                                            <span>Минеральная вата</span>
+                                            <p class="specification__num-list-txt_types">
+                                                Низкая теплопроводность, негорючесть и инертность к химическому воздействию — 
+                                                это ее основные достоинства. Но этот материал довольно тяжелый и стоит недешево
+                                            </p>
+                                        </li>
+                                        <li class="product-card-ol-li-txt specification__num-list-item specification__num-list-item_types">
+                                            <span>Пенополистирол</span>
+                                            <p class="specification__num-list-txt_types">
+                                                Весит мало, обладает низкой теплопроводностью и имеет точную геометрическую форму. 
+                                                Материал горючий, но проблема решается с помощью антипирена, который добавляется 
+                                                в основной компонент
+                                            </p>
+                                        </li>
+                                        <li class="product-card-ol-li-txt specification__num-list-item specification__num-list-item_types">
+                                            <span>Пенополиизоцианурат (ПИР/PIR)</span>
+                                            <p class="specification__num-list-txt_types">
+                                                Это модификация пенополиуретана. Кровельные сэндвич-панели ПИР 
+                                                обладают лучшими техническими характеристиками, но стоят дороже
+                                            </p>
+                                        </li>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="product-card-accordion-poppup">
+                            <div class="product-card-accordion-poppup__head">
+                                <span class="product-card-accordion-poppup__head-name">Характеристики</span>
+                                <img class="product-card-accordion-poppup__head-img" src="./images/table-adaptive-arrow_black.svg" alt="">
+                            </div>
+                            <div class="product-card-accordion-poppup__body">
+                                <section class="characteristics">
+                                    <p class="product-card-paragraph-txt characteristics__txt">
+                                        Кровельные сэндвич-панели — эффективный и недорогой материал, пользующийся популярностью
+                                        на строительном рынке. Панель состоит из трех слоев: двух металлических оболочек и теплоизоляции 
+                                        в центре. Толщина изделия может варьироваться, выбор определяется исходя из потребностей 
+                                        клиента.
+                                    </p>
+                                    <h2 class="characteristics__title">Технические характеристики</h2>
+                                    <table class="characteristics__table1">
+                                        <thead>
+                                            <tr>
+                                                <th class="table__th_wide">Характеристики</th>
+                                                <th colspan="8">Показатели</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="table__td_wide table__td_wide-grey">Толщина стали, мм</td>
+                                                <td class="table__td_regulr table__td_regulr-light-grey" colspan="7">0,5</td>
+                                                <td class="table__td_regulr table__td_regulr-grey">0,6</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table__td_wide table__td_wide-light-grey">Толщина панели, мм</td>
+                                                <td class="table__td_regulr table__td_regulr-white">0,034</td>
+                                                <td class="table__td_regulr table__td_regulr-dark-white">0,034</td>
+                                                <td class="table__td_regulr table__td_regulr-white">0,034</td>
+                                                <td class="table__td_regulr table__td_regulr-dark-white">0,034</td>
+                                                <td class="table__td_regulr table__td_regulr-white">0,034</td>
+                                                <td class="table__td_regulr table__td_regulr-dark-white">0,034</td>
+                                                <td class="table__td_regulr  table__td_regulr-white">0,034</td>
+                                                <td class="table__td_regulr table__td_regulr-dark-white">0,034</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table__td_wide table__td_wide-grey">Вес, кг/м.куб.</td>
+                                                <td class="table__td_regulr table__td_regulr-light-grey">0,034</td>
+                                                <td class="table__td_regulr table__td_regulr-grey">0,034</td>
+                                                <td class="table__td_regulr table__td_regulr-light-grey">0,034</td>
+                                                <td class="table__td_regulr table__td_regulr-grey">0,034</td>
+                                                <td class="table__td_regulr table__td_regulr-light-grey">0,034</td>
+                                                <td class="table__td_regulr  table__td_regulr-grey">0,034</td>
+                                                <td class="table__td_regulr table__td_regulr-light-grey">0,034</td>
+                                                <td class="table__td_regulr table__td_regulr-grey">0,034</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table__td_wide table__td_wide-light-grey">Толщина панели, мм</td>
+                                                <td class="table__td_regulr table__td_regulr-white"></td>
+                                                <td class="table__td_regulr table__td_regulr-dark-white">RE15</td>
+                                                <td class="table__td_regulr table__td_regulr-white"></td>
+                                                <td class="table__td_regulr table__td_regulr-dark-white"></td>
+                                                <td class="table__td_regulr table__td_regulr-white"></td>
+                                                <td class="table__td_regulr table__td_regulr-dark-white">RE15</td>
+                                                <td class="table__td_regulr  table__td_regulr-white"></td>
+                                                <td class="table__td_regulr table__td_regulr-dark-white"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table__td_wide table__td_wide-grey">Тепл-сть, Вт/м2*К</td>
+                                                <td class="table__td_regulr table__td_regulr-light-grey">0,034</td>
+                                                <td class="table__td_regulr table__td_regulr-grey">0,034</td>
+                                                <td class="table__td_regulr table__td_regulr-light-grey">0,034</td>
+                                                <td class="table__td_regulr table__td_regulr-grey">0,034</td>
+                                                <td class="table__td_regulr table__td_regulr-light-grey">0,034</td>
+                                                <td class="table__td_regulr  table__td_regulr-grey">0,034</td>
+                                                <td class="table__td_regulr table__td_regulr-light-grey">0,034</td>
+                                                <td class="table__td_regulr table__td_regulr-grey">0,034</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="product-card-table-accordion">
+                                        <div class="table-mobile table-mobile__product-card">
+                                            <div class="table-mobile__head">
+                                                <div class="table-mobile__row table-mobile__row_head">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_white">Толщина стали 0,5 мм</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <img class="table-mobile__cell-arrow" src="./images/table_adaptive-arrow.svg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="table-mobile__body table-mobile__body-product-card">
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Толщина панели, мм</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">0,034</span>
+                                                    </div>
+                                                </div>
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Вес, кг/м.куб.</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">RE15</span>
+                                                    </div>
+                                                </div>
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Огнестойкость	</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">0,034</span>
+                                                    </div>
+                                                </div>
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Тепл-сть, Вт/м2*К</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">0,034</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="table-mobile table-mobile__product-card">
+                                            <div class="table-mobile__head">
+                                                <div class="table-mobile__row table-mobile__row_head">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_white">Толщина стали 0,5 мм</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <img class="table-mobile__cell-arrow" src="./images/table_adaptive-arrow.svg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="table-mobile__body table-mobile__body-product-card">
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Толщина панели, мм</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">0,034</span>
+                                                    </div>
+                                                </div>
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Вес, кг/м.куб.</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">RE15</span>
+                                                    </div>
+                                                </div>
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Огнестойкость	</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">0,034</span>
+                                                    </div>
+                                                </div>
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Тепл-сть, Вт/м2*К</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">0,034</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="table-mobile table-mobile__product-card">
+                                            <div class="table-mobile__head">
+                                                <div class="table-mobile__row table-mobile__row_head">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_white">Толщина стали 0,5 мм</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <img class="table-mobile__cell-arrow" src="./images/table_adaptive-arrow.svg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="table-mobile__body table-mobile__body-product-card">
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Толщина панели, мм</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">0,034</span>
+                                                    </div>
+                                                </div>
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Вес, кг/м.куб.</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">RE15</span>
+                                                    </div>
+                                                </div>
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Огнестойкость	</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">0,034</span>
+                                                    </div>
+                                                </div>
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Тепл-сть, Вт/м2*К</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">0,034</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="table-mobile table-mobile__product-card">
+                                            <div class="table-mobile__head">
+                                                <div class="table-mobile__row table-mobile__row_head">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_white">Толщина стали 0,5 мм</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <img class="table-mobile__cell-arrow" src="./images/table_adaptive-arrow.svg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="table-mobile__body table-mobile__body-product-card">
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Толщина панели, мм</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">0,034</span>
+                                                    </div>
+                                                </div>
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Вес, кг/м.куб.</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">RE15</span>
+                                                    </div>
+                                                </div>
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Огнестойкость	</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">0,034</span>
+                                                    </div>
+                                                </div>
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Тепл-сть, Вт/м2*К</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">0,034</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h2 class="characteristics__title">Характеристики</h2>
+                                    <ul class="dots-list dots-list__characteristics">
+                                        <li class="dots-list__item">
+                                            <p class="dots-list__item-txt_left">Адаптации к негативным климатическим условиям</p>
+                                            <span class="dots-list__item-txt_right">80</span>
+                                        </li>
+                                        <li class="dots-list__item">
+                                            <p class="dots-list__item-txt_left">Отсутствию дополнительной нагрузки на фундамент</p>
+                                            <span class="dots-list__item-txt_right">80</span>
+                                        </li>
+                                        <li class="dots-list__item">
+                                            <p class="dots-list__item-txt_left">
+                                                Не деформируется под воздействием снега    
+                                            </p>
+                                            <span class="dots-list__item-txt_right">200</span>
+                                        </li>
+                                        <li class="dots-list__item">
+                                            <p class="dots-list__item-txt_left">
+                                            Выполнение работ осуществляется круглый год независимо
+                                            </p>
+                                            <span class="dots-list__item-txt_right">60</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="characteristics-list">
+                                        <li class="characteristics-item product-card-ul-li-txt">
+                                            <p>
+                                                <span class="product-card-list-txt">80</span>
+                                                <br>
+                                                Адаптации к негативным 
+                                                климатическим условиям
+                                            </p>
+                                        </li>
+                                        <li class="characteristics-item product-card-ul-li-txt">
+                                            <p>
+                                                <span class="product-card-list-txt">
+                                                    80
+                                                </span>
+                                                <br>
+                                                Отсутствию дополнительной 
+                                                нагрузки на фундамент
+                                            </p>
+                                        </li>
+                                        <li class="characteristics-item product-card-ul-li-txt">
+                                            <p>
+                                                <span class="product-card-list-txt">
+                                                    200
+                                                </span>
+                                                <br>
+                                                Не деформируется 
+                                                под воздействием снега
+                                            </p>
+                                        </li>
+                                        <li class="characteristics-item product-card-ul-li-txt">
+                                            <p>
+                                                <span class="product-card-list-txt">
+                                                    60
+                                                </span>
+                                                <br>
+                                                Выполнение работ осуществляется
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <h2 class="characteristics__title">Технические характеристики</h2>
+                                    <table class="characteristics__table2">
+                                        <thead>
+                                            <tr>
+                                                <th class="table__th_gray">
+                                                    мин.вата
+                                                    толщина
+                                                </th>
+                                                <th class="table__th_light-gray">
+                                                    0,042
+                                                    k*
+                                                </th>
+                                                <th class="table__th_gray">
+                                                    1/?
+                                                    R
+                                                </th>
+                                                <th class="table__th_light-gray">
+                                                    пенополистирол
+                                                    толщина
+                                                </th>
+                                                <th class="table__th_gray">
+                                                    0,042
+                                                    k*
+                                                </th>
+                                                <th class="table__th_light-gray">
+                                                    1/?
+                                                    R
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="table__td_regulr-grey">50</td>
+                                                <td class="table__td_regulr-light-grey">0,538</td>
+                                                <td class="table__td_regulr-grey">1,19</td>
+                                                <td class="table__td_regulr-light-grey">0,538</td>
+                                                <td class="table__td_regulr-grey">0,538</td>
+                                                <td class="table__td_regulr-light-grey">0,538</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table__td_regulr-white">50</td>
+                                                <td class="table__td_regulr-dark-white">0,538</td>
+                                                <td class="table__td_regulr-white">1,19</td>
+                                                <td class="table__td_regulr-dark-white">0,538</td>
+                                                <td class="table__td_regulr-white">0,538</td>
+                                                <td class="table__td_regulr-dark-white">0,538</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table__td_regulr-grey">50</td>
+                                                <td class="table__td_regulr-light-grey">0,538</td>
+                                                <td class="table__td_regulr-grey">1,19</td>
+                                                <td class="table__td_regulr-light-grey">0,538</td>
+                                                <td class="table__td_regulr-grey">0,538</td>
+                                                <td class="table__td_regulr-light-grey">0,538</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="table__td_regulr-white">
+                                                    0,043 /
+                                                    толщ. / 1000
+                                                </td>
+                                                <td class="table__td_regulr-dark-white">0,538</td>
+                                                <td class="table__td_regulr-white">1,19</td>
+                                                <td class="table__td_regulr-dark-white">0,538</td>
+                                                <td class="table__td_regulr-white">0,538</td>
+                                                <td class="table__td_regulr-dark-white">0,538</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="product-card-table-accordion">
+                                        <div class="table-mobile table-mobile__product-card">
+                                            <div class="table-mobile__head">
+                                                <div class="table-mobile__row table-mobile__row_head">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_white">Толщина стали 0,5 мм</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <img class="table-mobile__cell-arrow" src="./images/table_adaptive-arrow.svg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="table-mobile__body table-mobile__body-product-card">
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Толщина панели, мм</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">0,034</span>
+                                                    </div>
+                                                </div>
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Вес, кг/м.куб.</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">RE15</span>
+                                                    </div>
+                                                </div>
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Огнестойкость	</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">0,034</span>
+                                                    </div>
+                                                </div>
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Тепл-сть, Вт/м2*К</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">0,034</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="table-mobile table-mobile__product-card">
+                                            <div class="table-mobile__head">
+                                                <div class="table-mobile__row table-mobile__row_head">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_white">Толщина стали 0,5 мм</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <img class="table-mobile__cell-arrow" src="./images/table_adaptive-arrow.svg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="table-mobile__body table-mobile__body-product-card">
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Толщина панели, мм</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">0,034</span>
+                                                    </div>
+                                                </div>
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Вес, кг/м.куб.</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">RE15</span>
+                                                    </div>
+                                                </div>
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Огнестойкость	</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">0,034</span>
+                                                    </div>
+                                                </div>
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Тепл-сть, Вт/м2*К</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">0,034</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="table-mobile table-mobile__product-card">
+                                            <div class="table-mobile__head">
+                                                <div class="table-mobile__row table-mobile__row_head">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_white">Толщина стали 0,5 мм</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <img class="table-mobile__cell-arrow" src="./images/table_adaptive-arrow.svg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="table-mobile__body table-mobile__body-product-card">
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Толщина панели, мм</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">0,034</span>
+                                                    </div>
+                                                </div>
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Вес, кг/м.куб.</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">RE15</span>
+                                                    </div>
+                                                </div>
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Огнестойкость	</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">0,034</span>
+                                                    </div>
+                                                </div>
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Тепл-сть, Вт/м2*К</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">0,034</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="table-mobile table-mobile__product-card">
+                                            <div class="table-mobile__head">
+                                                <div class="table-mobile__row table-mobile__row_head">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_white">Толщина стали 0,5 мм</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <img class="table-mobile__cell-arrow" src="./images/table_adaptive-arrow.svg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="table-mobile__body table-mobile__body-product-card">
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Толщина панели, мм</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">0,034</span>
+                                                    </div>
+                                                </div>
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Вес, кг/м.куб.</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">RE15</span>
+                                                    </div>
+                                                </div>
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Огнестойкость	</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">0,034</span>
+                                                    </div>
+                                                </div>
+                                                <div class="table-mobile__row">
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">Тепл-сть, Вт/м2*К</span>
+                                                    </div>
+                                                    <div class="table-mobile__cell">
+                                                        <span class="table-mobile__cell-txt_black-thin">0,034</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="product-card-accordion-poppup">
+                            <div class="product-card-accordion-poppup__head">
+                                <span class="product-card-accordion-poppup__head-name">Чертежи</span>
+                                <img class="product-card-accordion-poppup__head-img" src="./images/table-adaptive-arrow_black.svg" alt="">
+                            </div>
+                            <div class="product-card-accordion-poppup__body">
+                                <section id="drawings" class="drawings">
+                                    <ul class="drawings__slider">
+                                        <li class="drawings__slider-item">
+                                            <div class="fancybox drawings__fancybox">
+                                                <button class="fancybox__btn">
+                                                    <a class="fancybox__link" data-fancybox href="./images/drawings-slider-item-img1.webp">
+                                                        <img class="fancybox__link-img" src="./images/fancybox-loop-blue.svg" alt="">
+                                                    </a>
+                                                </button>
+                                            </div>
+                                            <img class="drawings__slider-item-img" src="./images/drawings-slider-item-img1.webp" alt="">
+                                        </li>
+                                        <li class="drawings__slider-item">
+                                            <div class="fancybox drawings__fancybox">
+                                                <button class="fancybox__btn">
+                                                    <a class="fancybox__link" data-fancybox href="./images/drawings-slider-item-img1.webp">
+                                                        <img class="fancybox__link-img" src="./images/fancybox-loop-blue.svg" alt="">
+                                                    </a>
+                                                </button>
+                                            </div>
+                                            <img class="drawings__slider-item-img" src="./images/drawings-slider-item-img1.webp" alt="">
+                                        </li>
+                                        <li class="drawings__slider-item">
+                                            <div class="fancybox drawings__fancybox">
+                                                <button class="fancybox__btn">
+                                                    <a class="fancybox__link" data-fancybox href="./images/drawings-slider-item-img1.webp">
+                                                        <img class="fancybox__link-img" src="./images/fancybox-loop-blue.svg" alt="">
+                                                    </a>
+                                                </button>
+                                            </div>
+                                            <img class="drawings__slider-item-img" src="./images/drawings-slider-item-img1.webp" alt="">
+                                        </li>
+                                        <li class="drawings__slider-item">
+                                            <div class="fancybox drawings__fancybox">
+                                                <button class="fancybox__btn">
+                                                    <a class="fancybox__link" data-fancybox href="./images/drawings-slider-item-img1.webp">
+                                                        <img class="fancybox__link-img" src="./images/fancybox-loop-blue.svg" alt="">
+                                                    </a>
+                                                </button>
+                                            </div>
+                                            <img class="drawings__slider-item-img" src="./images/drawings-slider-item-img1.webp" alt="">
+                                        </li>
+                                        <li class="drawings__slider-item">
+                                            <div class="fancybox drawings__fancybox">
+                                                <button class="fancybox__btn">
+                                                    <a class="fancybox__link" data-fancybox href="./images/drawings-slider-item-img2.webp">
+                                                        <img class="fancybox__link-img" src="./images/fancybox-loop-blue.svg" alt="">
+                                                    </a>
+                                                </button>
+                                            </div>
+                                            <img class="drawings__slider-item-img" src="./images/drawings-slider-item-img2.webp" alt="">
+                                        </li>
+                                        <li class="drawings__slider-item">
+                                            <div class="fancybox drawings__fancybox">
+                                                <button class="fancybox__btn">
+                                                    <a class="fancybox__link" data-fancybox href="./images/drawings-slider-item-img3.webp">
+                                                        <img class="fancybox__link-img" src="./images/fancybox-loop-blue.svg" alt="">
+                                                    </a>
+                                                </button>
+                                            </div>
+                                            <img class="drawings__slider-item-img" src="./images/drawings-slider-item-img3.webp" alt="">
+                                        </li>
+                                        <li class="drawings__slider-item">
+                                            <div class="fancybox drawings__fancybox">
+                                                <button class="fancybox__btn">
+                                                    <a class="fancybox__link" data-fancybox href="./images/drawings-slider-item-img4.webp">
+                                                        <img class="fancybox__link-img" src="./images/fancybox-loop-blue.svg" alt="">
+                                                    </a>
+                                                </button>
+                                            </div>
+                                            <img class="drawings__slider-item-img" src="./images/drawings-slider-item-img4.webp" alt="">
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="product-card-accordion-poppup">
+                            <div class="product-card-accordion-poppup__head">
+                                <span class="product-card-accordion-poppup__head-name">Галерея</span>
+                                <img class="product-card-accordion-poppup__head-img" src="./images/table-adaptive-arrow_black.svg" alt="">
+                            </div>
+                            <div class="product-card-accordion-poppup__body">
+                                <section class="product-item-gallery">
+                                    <ul class="product-item-gallery__slider">
+                                        <li class="product-item-gallery__slider-item">
+                                            <div class="fancybox product-item-gallery__fancybox">
+                                                <button class="fancybox__btn">
+                                                    <a class="fancybox__link" data-fancybox href="./images/product-item-gallery-slider-img1.webp">
+                                                        <img class="fancybox__link-img" src="./images/fancybox-loop-blue.svg" alt="">
+                                                    </a>
+                                                </button>
+                                            </div>
+                                            <img class="product-item-gallery__slider-item-img" src="./images/product-item-gallery-slider-img2.webp" alt="">
+                                        </li>
+                                        <li class="product-item-gallery__slider-item">
+                                            <div class="fancybox product-item-gallery__fancybox">
+                                                <button class="fancybox__btn">
+                                                    <a class="fancybox__link" data-fancybox href="./images/product-item-gallery-slider-img2.webp">
+                                                        <img class="fancybox__link-img" src="./images/fancybox-loop-blue.svg" alt="">
+                                                    </a>
+                                                </button>
+                                            </div>
+                                            <img class="product-item-gallery__slider-item-img" src="./images/product-item-gallery-slider-img1.webp" alt="">
+                                        </li>
+                                        <li class="product-item-gallery__slider-item">
+                                            <div class="fancybox product-item-gallery__fancybox">
+                                                <button class="fancybox__btn">
+                                                    <a class="fancybox__link" data-fancybox href="./images/product-item-gallery-slider-img1.webp">
+                                                        <img class="fancybox__link-img" src="./images/fancybox-loop-blue.svg" alt="">
+                                                    </a>
+                                                </button>
+                                            </div>
+                                            <img class="product-item-gallery__slider-item-img" src="./images/product-item-gallery-slider-img1.webp" alt="">
+                                        </li>
+                                        <li class="product-item-gallery__slider-item">
+                                            <div class="fancybox product-item-gallery__fancybox">
+                                                <button class="fancybox__btn">
+                                                    <a class="fancybox__link" data-fancybox href="./images/product-item-gallery-slider-img1.webp">
+                                                        <img class="fancybox__link-img" src="./images/fancybox-loop-blue.svg" alt="">
+                                                    </a>
+                                                </button>
+                                            </div>
+                                            <img class="product-item-gallery__slider-item-img" src="./images/product-item-gallery-slider-img1.webp" alt="">
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="product-card-accordion-poppup">
+                            <div class="product-card-accordion-poppup__head">
+                                <span class="product-card-accordion-poppup__head-name">Сертификаты</span>
+                                <img class="product-card-accordion-poppup__head-img" src="./images/table-adaptive-arrow_black.svg" alt="">
+                            </div>
+                            <div class="product-card-accordion-poppup__body">
+                                <section class="product-item-certificates">
+                                    <ul class="product-item-certificates__slider">
+                                        <li class="product-item-certificates__slider-item">
+                                            <div class="fancybox product-item-certificates__fancybox">
+                                                <button class="fancybox__btn">
+                                                    <a class="fancybox__link" data-fancybox href="./images/product-item-gallery-slider-img1.webp">
+                                                        <img class="fancybox__link-img" src="./images/fancybox-loop-blue.svg" alt="">
+                                                    </a>
+                                                </button>
+                                            </div>
+                                            <div class="product-item-certificates__slider-item-bg">
+                                                <img class="product-item-certificates__slider-item-img" src="./images/ral-page-certificates-item-img1.webp" alt="">
+                                            </div>
+                                            <p class="product-item-certificates__slider-item-txt">
+                                                Сертификат соответствия 
+                                                № РОСС RU.32079.04СПБ1.ОС14.40210
+                                            </p>
+                                        </li>
+                                        <li class="product-item-certificates__slider-item">
+                                            <div class="fancybox product-item-certificates__fancybox">
+                                                <button class="fancybox__btn">
+                                                    <a class="fancybox__link" data-fancybox href="./images/product-item-gallery-slider-img1.webp">
+                                                        <img class="fancybox__link-img" src="./images/fancybox-loop-blue.svg" alt="">
+                                                    </a>
+                                                </button>
+                                            </div>
+                                            <div class="product-item-certificates__slider-item-bg">
+                                                <img class="product-item-certificates__slider-item-img" src="./images/ral-page-certificates-item-img2.webp" alt="">
+                                            </div>
+                                            <p class="product-item-certificates__slider-item-txt">
+                                                Сертификат соответствия 
+                                                № ССГБ RU.СП01.H00159
+                                            </p>
+                                        </li>
+                                        <li class="product-item-certificates__slider-item">
+                                            <div class="fancybox product-item-certificates__fancybox">
+                                                <button class="fancybox__btn">
+                                                    <a class="fancybox__link" data-fancybox href="./images/product-item-gallery-slider-img1.webp">
+                                                        <img class="fancybox__link-img" src="./images/fancybox-loop-blue.svg" alt="">
+                                                    </a>
+                                                </button>
+                                            </div>
+                                            <div class="product-item-certificates__slider-item-bg">
+                                                <img class="product-item-certificates__slider-item-img" src="./images/ral-page-certificates-item-img3.webp" alt="">
+                                            </div>
+                                            <p class="product-item-certificates__slider-item-txt">
+                                                Сертификат соответствия 
+                                                № РОСС RU.32079.04СПБ1.ОС14.40210
+                                            </p>
+                                        </li>
+                                        <li class="product-item-certificates__slider-item">
+                                            <div class="fancybox product-item-certificates__fancybox">
+                                                <button class="fancybox__btn">
+                                                    <a class="fancybox__link" data-fancybox href="./images/product-item-gallery-slider-img1.webp">
+                                                        <img class="fancybox__link-img" src="./images/fancybox-loop-blue.svg" alt="">
+                                                    </a>
+                                                </button>
+                                            </div>
+                                            <div class="product-item-certificates__slider-item-bg">
+                                                <img class="product-item-certificates__slider-item-img" src="./images/ral-page-certificates-item-img4.webp" alt="">
+                                            </div>
+                                            <p class="product-item-certificates__slider-item-txt">
+                                                Сертификат соответствия 
+                                                № ССГБ RU.СП01.H00159
+                                            </p>
+                                        </li>
+                                        <li class="product-item-certificates__slider-item">
+                                            <div class="fancybox product-item-certificates__fancybox">
+                                                <button class="fancybox__btn">
+                                                    <a class="fancybox__link" data-fancybox href="./images/product-item-gallery-slider-img1.webp">
+                                                        <img class="fancybox__link-img" src="./images/fancybox-loop-blue.svg" alt="">
+                                                    </a>
+                                                </button>
+                                            </div>
+                                            <div class="product-item-certificates__slider-item-bg">
+                                                <img class="product-item-certificates__slider-item-img" src="./images/ral-page-certificates-item-img1.webp" alt="">
+                                            </div>
+                                            <p class="product-item-certificates__slider-item-txt">
+                                                Сертификат соответствия 
+                                                № РОСС RU.32079.04СПБ1.ОС14.40210
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="product-card-accordion-poppup">
+                            <div class="product-card-accordion-poppup__head">
+                                <span class="product-card-accordion-poppup__head-name">Оплата и доставка</span>
+                                <img class="product-card-accordion-poppup__head-img" src="./images/table-adaptive-arrow_black.svg" alt="">
+                            </div>
+                            <div class="product-card-accordion-poppup__body">
+                                <section class="payment">
+                                    <div class="payment__title-row">
+                                        <img class="payment__img" src="./images/payment-image.webp" alt="">
+                                        <h2 class="payment__title">Оплата</h2>
+                                    </div>
+                                    <p class="product-card-paragraph-txt specification__txt">
+                                        Оплата продукции «СП-Центр» осуществляется по безналичному расчёту на указанные банковские 
+                                        реквизиты после выставления счёта и в соответствии с условиями договора. Платёж считается 
+                                        выполненным после поступления средств на расчётный счёт компании.
+                                    </p>
+                                    <h2 class="payment__titel">Реквизиты ООО «СП-Центр»</h2>
+                                    <ul class="dots-list">
+                                        <li class="dots-list__item">
+                                            <p class="dots-list__item-txt_left">Компания</p>
+                                            <span class="dots-list__item-txt_right">ООО «СП-Центр»</span>
+                                        </li>
+                                        <li class="dots-list__item">
+                                            <p class="dots-list__item-txt_left">Юридический адрес</p>
+                                            <span class="dots-list__item-txt_right">141147, МО, Щёлковский район, д. Еремино</span>
+                                        </li>
+                                        <li class="dots-list__item">
+                                            <p class="dots-list__item-txt_left">
+                                                Почтовый адрес   
+                                            </p>
+                                            <span class="dots-list__item-txt_right">111123, г. Москва, Электродный проезд, д. 8а, офис 26</span>
+                                        </li>
+                                        <li class="dots-list__item">
+                                            <p class="dots-list__item-txt_left">
+                                                ИНН/КПП
+                                            </p>
+                                            <span class="dots-list__item-txt_right">7701740077/505001001</span>
+                                        </li>
+                                        <li class="dots-list__item">
+                                            <p class="dots-list__item-txt_left">
+                                                ОГРН
+                                            </p>
+                                            <span class="dots-list__item-txt_right">1077759119680 от 15 августа 2007 года</span>
+                                        </li>
+                                        <li class="dots-list__item">
+                                            <p class="dots-list__item-txt_left">
+                                                ОКПО
+                                            </p>
+                                            <span class="dots-list__item-txt_right">82486127</span>
+                                        </li>
+                                        <li class="dots-list__item">
+                                            <p class="dots-list__item-txt_left">
+                                                Р/с
+                                            </p>
+                                            <span class="dots-list__item-txt_right">40702810938120011501</span>
+                                        </li>
+                                        <li class="dots-list__item">
+                                            <p class="dots-list__item-txt_left">
+                                                Банк
+                                            </p>
+                                            <span class="dots-list__item-txt_right">Лефортовское отделение ОСБ 6901 г. Москвы, Сбербанка России ОАО, г. Москва</span>
+                                        </li>
+                                        <li class="dots-list__item">
+                                            <p class="dots-list__item-txt_left">
+                                                БИК
+                                            </p>
+                                            <span class="dots-list__item-txt_right">044525225</span>
+                                        </li>
+                                        <li class="dots-list__item">
+                                            <p class="dots-list__item-txt_left">
+                                                К/с
+                                            </p>
+                                            <span class="dots-list__item-txt_right">30101810400000000225</span>
+                                        </li>
+                                    </ul>
+                                    <ul class="requisite-list">
+                                        <li class="requisite-item">
+                                            <p class="product-card-ul-li-txt">
+                                                <span class="product-card-list-txt">Компания</span>
+                                                <br>
+                                                ООО «СП-Центр»
+                                            </p>
+                                        </li>
+                                        <li class="requisite-item">
+                                            <p class="product-card-ul-li-txt">
+                                                <span class="product-card-list-txt">
+                                                    Юридический адрес
+                                                </span>
+                                                <br>
+                                                141147, МО, Щёлковский район, д. Еремино
+                                            </p>
+                                        </li>
+                                        <li class="requisite-item">
+                                            <p class="product-card-ul-li-txt">
+                                                <span class="product-card-list-txt">
+                                                    Почтовый адрес
+                                                </span>
+                                                <br>
+                                                111123, г. Москва, Электродный проезд, 
+                                                д. 8а, офис 26
+                                            </p>
+                                        </li>
+                                        <li class="requisite-item">
+                                            <p class="product-card-ul-li-txt">
+                                                <span class="product-card-list-txt">
+                                                    ИНН/КПП
+                                                </span>
+                                                <br>
+                                                7701740077/505001001
+                                            </p>
+                                        </li>
+                                        <li class="requisite-item">
+                                            <p class="product-card-ul-li-txt">
+                                                <span class="product-card-list-txt">
+                                                    ОГРН
+                                                </span>
+                                                <br>
+                                                1077759119680 от 15 августа 2007 года
+                                            </p>
+                                        </li>
+                                        <li class="requisite-item">
+                                            <p class="product-card-ul-li-txt">
+                                                <span class="product-card-list-txt">
+                                                    ОКПО
+                                                </span>
+                                                <br>
+                                                82486127
+                                            </p>
+                                        </li>
+                                        <li class="requisite-item">
+                                            <p class="product-card-ul-li-txt">
+                                                <span class="product-card-list-txt">
+                                                    Р/с
+                                                </span>
+                                                <br>
+                                                40702810938120011501
+                                            </p>
+                                        </li>
+                                        <li class="requisite-item">
+                                            <p class="product-card-ul-li-txt">
+                                                <span class="product-card-list-txt">
+                                                    Банк 
+                                                </span>
+                                                <br>
+                                                Лефортовское отделение ОСБ 6901 
+                                                г. Москвы, Сбербанка России ОАО, г. Москва
+                                            </p>
+                                        </li>
+                                        <li class="requisite-item">
+                                            <p class="product-card-ul-li-txt">
+                                                <span class="product-card-list-txt">
+                                                    БИК
+                                                </span>
+                                                <br>
+                                                044525225
+                                            </p>
+                                        </li>
+                                        <li class="requisite-item">
+                                            <p class="product-card-ul-li-txt">
+                                                <span class="product-card-list-txt">
+                                                    К/с
+                                                </span>
+                                                <br>
+                                                30101810400000000225
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <button class="payment__btn">
+                                        <span class="payment__btn-txt">Скачать реквизиты</span>
+                                    </button>
+                                    <div class="transfer">
+                                        <div class="transfer__content-row">
+                                            <div class="transfer__title-row">
+                                                <img class="transfer__image" src="./images/transfer-image.webp" alt="">
+                                                <h2>Доставка</h2>
+                                            </div>
+                                            <p class="product-card-paragraph-txt  specification__txt">
+                                                Вы можете забрать продукцию «СП-Центр» самостоятельно 
+                                                со склада компании или запросить доставку
+                                            </p>
+                                            <div class="transfer__info-row">
+                                                <div class="pickup">
+                                                    <div class="pickup__content-row">
+                                                        <h3 class="pickup__title">Самовывоз</h3>
+                                                        <p class="pickup__txt">
+                                                            Самовывоз продукции 
+                                                            осуществляется со склада 
+                                                            компании в деревне Ерёмино
+                                                        </p>
+                                                        <div class="pickup__address">
+                                                            <img class="pickup__address-img" src="./images/contacts-address-image.webp" alt="">
+                                                            <p class="pickup__address-txt">
+                                                                <span class="pickup__address-txt_bold">Адрес склада</span>
+                                                                <br>
+                                                                Московская область, 
+                                                                Щёлковский район,
+                                                                деревня Ерёмино, 
+                                                                ул. Парковая, д. 100
+                                                            </p>
+                                                        </div>
+                                                        <div class="pickup__time">
+                                                            <img class="pickup__time-img" src="./images/contacts-time-image.webp" alt="">
+                                                            <p class="pickup__address-txt">
+                                                                <span class="pickup__address-txt_bold">Часы работы</span>
+                                                                <br>
+                                                                пн-сб 10:00–18:00
+                                                                вс выходной
+                                                            </p>
+                                                        </div>
+                                                        <button class="pickup__btn">
+                                                            <span class="pickup__btn-txt">Схема проезда</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                <div class="delivery-by-company">
+                                                    <div class="delivery-by-company__content-row">
+                                                        <h3 class="delivery-by-company__title">Доставка транспортной компанией</h3>
+                                                        <p class="product-card-paragraph-txt specification__txt"> 
+                                                            Для организации доставки мы обращаемся 
+                                                            к нашим постоянным партнёрам — 
+                                                            транспортным компаниям, с которыми 
+                                                            мы сотрудничаем на постоянной основе. 
+                                                            Обязательным требованием 
+                                                            при выборе 
+                                                            партнёра является наличие у него 
+                                                            необходимого оборудования, в частности, 
+                                                            текстильных ремней для фиксации панелей 
+                                                            при транспортировке (не менее 6 штук 
+                                                            на поддон). Для подбора наиболее подходящего
+                                                            варианта по срокам и цене мы уточняем адрес 
+                                                            покупателя. Компания рассчитывает стоимость 
+                                                            услуги, исходя из пункта назначения, 
+                                                            а мы включаем её в наш счёт без каких-либо
+                                                            наценок.
+                                                        </p>
+                                                        <button class="delivery-by-company__btn">
+                                                            <span class="delivery-by-company__btn-txt">Оставить заявку</span>
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </section>
                 </section>
             </div>
         </div>
@@ -1701,6 +2878,184 @@
             Ваше сообщение отправлено.
             <br> Мы свяжемся с вами в ближайшее время
           </span>
+        </div>
+    </div>
+    <div class="filters-poppup">
+        <div class="container">
+            <div class="filters-poppup__content-row">
+                <section class="bread-crumbs">
+                    <div class="container">
+                        <div class="bread-crumbs__row">
+                            <a href="./index.html">Главная</a>
+                            <span class="bread-crumbs__pipe">|</span>
+                            <a href="./catalog1.html">Каталог</a>
+                            <span class="bread-crumbs__pipe">|</span>
+                            <a href="./catalog2.html">Сэндвич-панели</a>
+                            <span class="bread-crumbs__pipe">|</span>
+                            <a href="##">Кровельные сэндвич-панели</a>
+                        </div>
+                    </div>
+                </section>
+                <div class="mobile-filters-header__open-menu">
+                    <h2 class="mobile-filters-header__titel">Фильтры</h2>
+                    <button class="mobile-filters-header__close-btn">
+                        <span id="mobile-filters-header__close-btn-txt" class="mobile-filters-header__close-btn-txt">Отмена</span>
+                    </button>
+                </div>
+                <form class="filters filters__adaptive">
+                    <div class="filter-accardion">
+                        <div class="filter-accardion__head">
+                            <span class="filter-accardion__head-name">Вид утеплителя</span>
+                            <img class="filter-accardion__head-img" src="./images/filter-accardion-arrow.svg" alt="">
+                        </div>
+                        <div class="filter-accardion__body">
+                            <div class="type-inputs-row">
+                                  <label class="radio-container">
+                                    <input type="radio" name="type-radio">
+                                    <span class="checkmark">Минвата</span>
+                                  </label>
+                                  <label class="radio-container">
+                                    <input type="radio" name="type-radio">
+                                    <span class="checkmark">Пенополистирол</span>
+                                  </label>
+                                  <label class="radio-container">
+                                    <input type="radio" name="type-radio">
+                                    <span class="checkmark">Гладкий</span>
+                                  </label>
+                                  <label class="radio-container">
+                                    <input type="radio" name="type-radio">
+                                    <span class="checkmark">Накатка</span>
+                                  </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-accardion">
+                        <div class="filter-accardion__head">
+                            <span class="filter-accardion__head-name">
+                                Вид профилирования
+                                металлической облицовки
+                            </span>
+                            <img class="filter-accardion__head-img" src="./images/filter-accardion-arrow.svg" alt="">
+                        </div>
+                        <div class="filter-accardion__body">
+                            <div class="profiling-inputs-row">
+                                <label class="radio-container">Канавки 59 см
+                                    <input type="radio" name="profiling-radio">
+                                    <span class="checkmark"></span>
+                                  </label>
+                                  <label class="radio-container">Канавки 39 см
+                                    <input type="radio" name="profiling-radio">
+                                    <span class="checkmark"></span>
+                                  </label>
+                                  <label class="radio-container">Канавки 29 см
+                                    <input type="radio" name="profiling-radio">
+                                    <span class="checkmark"></span>
+                                  </label>
+                                  <label class="radio-container">Канавки 29 см
+                                    <input type="radio" name="profiling-radio">
+                                    <span class="checkmark"></span>
+                                  </label>
+                                  <label class="radio-container">Канавки 29 см
+                                    <input type="radio" name="profiling-radio">
+                                    <span class="checkmark"></span>
+                                  </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-accardion">
+                        <div class="filter-accardion__head">
+                            <span class="filter-accardion__head-name">
+                                Толщина панелей
+                            </span>
+                            <img class="filter-accardion__head-img" src="./images/filter-accardion-arrow.svg" alt="">
+                        </div>
+                        <div class="filter-accardion__body">
+                            <div class="panels-width">
+                                <div class="result">
+                                    <p class="result__txt">11</p>
+                                </div>
+                                <div class="range">
+                                    <input class="range-input" type="range" value="150" max="200" min="100">
+                                    <div class="sliderticks">
+                                        <span class="sliderticks__txt">100</span>
+                                        <span class="sliderticks__txt">150</span>
+                                        <span class="sliderticks__txt">200</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-accardion">
+                        <div class="filter-accardion__head">
+                            <span class="filter-accardion__head-name">
+                                Тип профилированного
+                                листа
+                            </span>
+                            <img class="filter-accardion__head-img" src="./images/filter-accardion-arrow.svg" alt="">
+                        </div>
+                        <div class="filter-accardion__body">
+                            <div class="profiling-list-inputs-row">
+                                <label class="radio-container">
+                                    Профилированный
+                                    лист МС456-6456
+                                    <input type="radio" name="profiling-list-radio">
+                                    <div class="checkmark">
+                                        <img src="./images/list-profiling-img.webp" alt="">
+                                    </div>
+                                  </label>
+                                  <label class="radio-container">
+                                    Профилированный
+                                    лист МС456-6456
+                                    <input type="radio" name="profiling-list-radio">
+                                    <div class="checkmark">
+                                        <img src="./images/list-profiling-img2.webp" alt="">
+                                    </div>
+                                  </label>
+                                  <label class="radio-container">
+                                    Профилированный
+                                    лист МС456-6456
+                                    <input type="radio" name="profiling-list-radio">
+                                    <div class="checkmark">
+                                        <img src="./images/list-profiling-img3.webp" alt="">
+                                    </div>
+                                  </label>
+                                  <label class="radio-container">
+                                    Профилированный
+                                    лист МС456-6456
+                                    <input type="radio" name="profiling-list-radio">
+                                    <div class="checkmark">
+                                        <img src="./images/list-profiling-img.webp" alt="">
+                                    </div>
+                                  </label>
+                                  <label class="radio-container">
+                                    Профилированный
+                                    лист МС456-6456
+                                    <input type="radio" name="profiling-list-radio">
+                                    <div class="checkmark">
+                                        <img src="./images/list-profiling-img.webp" alt="">
+                                    </div>
+                                  </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filters__switch-btn">
+                        <label class="filters__switch-btn-label">
+                            <input type="checkbox" >
+                            <span class="filters__switch-btn-label-round"></span>
+                        </label>
+                        <span class="filters__switch-btn-txt">РУСТ</span>
+                    </div>
+                    <button id="filters__clear-btn" class="filters__clear-btn" type="reset">
+                        <img class="filters__clear-btn-img" src="./images/clear-all.webp" alt="">
+                        <span class="filters__clear-btn-txt">Очистить</span>
+                    </button>  
+                </form>
+                <div class="filters__apply-btn-container">
+                    <button class="filters__apply-btn">
+                        <span class="filters__apply-btn-txt">Применить фильтры</span>
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
     <div id="popup-wrapper" class="popup-wrapper"></div>
